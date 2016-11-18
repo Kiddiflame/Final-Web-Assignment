@@ -15,7 +15,17 @@
 </div>
 <div class="search_options">
 	<ul>
-		<li>button1</li>
+<li>
+<select>
+  <option value="Bard">Bard</option>
+  <option value="Cleric">Cleric</option>
+  <option value="Druid">Druid</option>
+  <option value="Paladin">Paladin</option>
+  <option value="Sorcerer">Sorcerer</option>
+  <option value="Warlock">Warlock</option>
+  <option value="Wizard">Wizard</option>
+</select>
+</li>
 		<li>button2</li>
 		<li>button3</li>
 		<li>search button</li>
@@ -23,7 +33,7 @@
 </div>
 <div class="dropdown"></div>
 <footer>
-<p>&copy;<?php echo date('Y'); ?> David Powers</p>
+<p>&copy;<?php echo date('Y'); ?> Kristinn Logi, Vladislavs Dzjamko</p>
 </footer>
 </body>
 </html>
