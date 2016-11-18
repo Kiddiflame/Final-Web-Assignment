@@ -22,9 +22,7 @@
 </div>
 <div class="dropdown"></div>
 <footer>
-	<p>&copy;
-<p>&copy; 2006&ndash;<?php echo date('Y'); ?> David Powers</p>
-David Powers</p>
+<p>&copy;<?php echo date('Y'); ?> David Powers</p>
 </footer>
 </body>
 </html>
