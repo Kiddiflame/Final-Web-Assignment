@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Final Assignment</title>
+	<link rel="stylesheet" type="text/css" href="stilsida.css">
 </head>
 <body>
 <div class="title">Final Assignment</div>
