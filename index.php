@@ -26,8 +26,33 @@
   <option value="Wizard">Wizard</option>
 </select>
 </li>
-		<li>button2</li>
-		<li>button3</li>
+<li>
+<select>
+  <option value="Level0">Level 0</option>
+  <option value="Level1">Level 1</option>
+  <option value="Level2">Level 2</option>
+  <option value="Level3">Level 3</option>
+  <option value="Level4">Level 4</option>
+  <option value="Level5">Level 5</option>
+  <option value="Level6">Level 6</option>
+  <option value="Level7">Level 7</option>
+  <option value="Level8">Level 8</option>
+  <option value="Level9">Level 9</option>
+</select>
+</li>
+
+<li>
+<select>
+  <option value="Abjuration">Abjuration</option>
+  <option value="Illusion">Illusion</option>
+  <option value="Conjuration">Conjuration</option>
+  <option value="Enchantment">Enchantment</option>
+  <option value="Evocation">Evocation</option>
+  <option value="Divination">Divination</option>
+  <option value="Necromancy">Necromancy</option>
+  <option value="Transmutation">Transmutation</option>
+</select>
+</li>
 		<li>search button</li>
 	</ul>
 </div>
