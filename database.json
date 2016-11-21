@@ -1,45 +1,86 @@
 //hér skal ég geyma alla galdranna í json fylkjum
 
-"spell array":[
+"spell array":{
 		
 	    "level_0":{
-	     		"name": "acid splash",
+	     		
+	     		"Acid_Splash":
+	     		{
 	    		"spell_school": "evocation",
-	    		"source_book:" "Player's Handbook"
+	    		"source_book":"Player's Handbook"
+	     		},
+	     		
 	     },
 
 	    "level_1":{
-	     	
+	     	"Absorb Elements":
+	     	{
+	     		"spell_school": "abjuration"
+	     		"source_book": "Elemental Evil"
+	     	},
 	     },
 	     "level_2":{
-	     	
+	     	"Aganazzar’s Scorcher":
+	     	{
+	     		"spell_school":"evocation"
+	     		"source_book": "Elemental Evil"
+	     	}
 	     },
 
 	       "level_3":{
-	     	
+	     	"Animate Dead":
+	     	{
+	     		"spell_school": "Necromancy",
+	     		"source_book": "Player Handbook"
+	     	}
 	     },
 
 	       "level_4":{
-	     	  
+	     	  "Arcane Eye":
+	     	  {
+	     	  	"spell_school": "Divination",
+	     	  	"source_book": "Player's Handbook"
+	     	  }
 	     },
 
 	       "level_5":{
+			"Animate Objects":
+			{
+				"spell_school": "Transmutation",
+				"source_book": "Player's Handbook"
+			}
 	     	
 	     },
 
 	       "level_6":{
-	     	 
+	     	 "Arcane Gate":
+	     	 {
+	     	 	"spell_school": "Conjuration",
+	     	 	"source_book": "Player's Handbook"
+	     	 }
 	     },
 
 	       "level_7":{
-	     	 
+	     	 "Conjure Celestial":
+	     	 {
+	     	 	"spell_school": "Conjuration",
+	     	 	"source_book": "Player's Handbook"
+	     	 }
 	     },
 
 	       "level_8":{
-	     	 
+	     	 "Abi-Dalzim's Horrid Wilting":
+	     	 {
+	     	 	"spell_school": "Necromancy",
+	     	 	"source_book": "Elemental Evil"
+	     	 }
 	     },
 
 	       "level_9":{
-
+	       	"Astral Projection":
+	       	{
+	       		"spell_school": "Necromancy",
+	       		"source_book": "Player's Handbook"
+	       	}
 	     },
-	]
+	}
