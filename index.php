@@ -62,6 +62,7 @@
 </div>
 <footer>
 <p>&copy;<?php echo date('Y'); ?> Kristinn Logi</p>
+<p class="contact info">Email: Kiddiflame@gmail.com<br>Phone: 1234567<br></p>
 </footer>
 </body>
 </html>
