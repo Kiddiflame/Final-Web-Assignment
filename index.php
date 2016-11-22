@@ -57,14 +57,16 @@
 	</ul>
 </div>
 <div class="search_text">
-	<div class="block"><p>Sed ut persp</p></div>
+<section class="row">
+  <div class="block"><p>Sed ut persp</p></div>
   <div class="block"><p>blabla</p></div>
    <div class="block"><p>blabla</p></div>
     <div class="block"><p>blabla</p></div>
+</section>
+	
 
 </div>
 <footer>
-<p></p>
  <div class="Contact_Information">
                     <p>
                         &copy;<?php echo date('Y'); ?> Tskola verkefni<br>

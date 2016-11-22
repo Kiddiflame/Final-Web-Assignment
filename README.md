@@ -12,6 +12,6 @@
 
 <p> Main text</p>
 
-<p> Search criteria, class, spell level, spell school, and the search button</p>
+<p> Search criteria include the spell caster class, the spell's level, and what school of magic it falls under(it's type), and the search button to get the spells, based on said criteria</p>
 
-<p> Footer, our phone number and an updating date </p>
+<p> Footer, my name, a constantly updating yearly date, and contact information </p>
