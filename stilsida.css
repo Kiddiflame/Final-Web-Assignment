@@ -31,6 +31,9 @@
     1px 1px 0 #255; 
   		border: 1px solid;
   		border-color: black;
+      display: flex;
+      flex-flow: row;
+      margin: .5em;
 
   }
 
@@ -40,13 +43,33 @@ select
   float: left;
 }
 
-.contact_info
+.Contact_Information
 {
-    display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: column;
-   flex-direction: column;
-  background-color: #fff;
-  color: #444;
+      text-align: right;
+      font-size: .7em;
 
+} 
+.Contact_Information p
+{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: white;
+        margin-right: 1em;
+        margin-bottom: 1em;
+
+}
+
+.block
+{
+  margin: 2em;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em){
+.block {
+    flex: 1 1 0; 
+   text-align: center;
+ box-sizing: border-box;
+    border-width: 0 1px 1px 0;
 }
