@@ -6,23 +6,366 @@
 	     		
 	     		"Acid_Splash":
 	     		{
-	    		"spell_school": "evocation",
-	    		"source_book":"Player's Handbook"
+	    		"spell_school": "Evocation",
+	    		"source_book":"Players Handbook"
 	     		},
-	     		
+
+	     		"Blade Ward":
+	     		{
+	     			"spell_school": "Abjuration",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Booming Blade":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Sword Coast Adv"
+	     		},
+
+	     		"Chill Touch":
+	     		{
+	     			"spell_school": "Necromancy",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Control Flames":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Dancing Lights":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Druidcraft":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Eldritch Blast":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Fire Bolt":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Fire Bolt":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Friends":
+	     		{
+	     			"spell_school": "Enchantment",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Frostbite":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Green-Flame Blade":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Sword Coast Adv"
+	     		},
+
+	     		"Guidance":
+	     		{
+	     			"spell_school": "Divination",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Gust":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Light":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Lightning Lure":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Sword Coast Adv"
+	     		},
+
+	     		"Mage Hand":
+	     		{
+	     			"spell_school": "Conjuration",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Magic Stone":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Mending":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Message":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Minor Illusion":
+	     		{
+	     			"spell_school": "Illusion",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Mold Earth":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Poison Spray":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Prestidigitation":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Produce Flame":
+	     		{
+	     			"spell_school": "Conjuration",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Ray of Frost":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Sacred Flame":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Shape Water":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     		"Shillelagh":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Shocking Grasp":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Spare the Dying":
+	     		{
+	     			"spell_school": "Necromancy",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Sword Burst":
+	     		{
+	     			"spell_school": "Conjuration",
+	     			"source_book": "Sword Coast	Adv"
+	     		},
+
+	     		"Thaumaturgy":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     		"Thorn Whip":
+	     		{
+	     			"spell_school": "Transmutation",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     			"Thunderclap":
+	     		{
+	     			"spell_school": "Evocation",
+	     			"source_book": "Elemental Evil"
+	     		},
+
+	     			"True Strike":
+	     		{
+	     			"spell_school": "Divination",
+	     			"source_book": "Players Handbook"
+	     		},
+
+	     			"Vicious Mockery":
+	     		{
+	     			"spell_school": "Enchantment",
+	     			"source_book": "Players Handbook"
+	     		}
 	     },
 
 	    "level_1":{
 	     	"Absorb Elements":
 	     	{
-	     		"spell_school": "abjuration"
+	     		"spell_school": "Abjuration",
 	     		"source_book": "Elemental Evil"
 	     	},
+
+	     	"Alarm":
+	     	{
+	     		"spell_school": "Abjuration",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Animal Friendship":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Armor of Agathys":
+	     	{
+	     		"spell_school": "Abjuration",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Arms of Hadar":
+	     	{
+	     		"spell_school": "Conjuration",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Bane":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Beast Bond":
+	     	{
+	     		"spell_school": "Divination",
+	     		"source_book": "Elemental Evil"
+	     	},
+
+	     	"Bless":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Burning Hands":
+	     	{
+	     		"spell_school": "Evocation",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Catapult":
+	     	{
+	     		"spell_school": "Transmutation",
+	     		"source_book": "Elemental Evil"
+	     	},
+
+	     	"Charm Person":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Chromatic Orb":
+	     	{
+	     		"spell_school": "Evocation",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     	"Color Spray":
+	     	{
+	     		"spell_school": "Illusion",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Command":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Compelled Duel":
+	     	{
+	     		"spell_school": "Enchantment",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Comprehend Languages":
+	     	{
+	     		"spell_school": "Divination",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Create or Destroy Water":
+	     	{
+	     		"spell_school": "Transmutation",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Cure Wounds":
+	     	{
+	     		"spell_school": "Evocation",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Detect Evil and Good":
+	     	{
+	     		"spell_school": "Divination",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Color Spray":
+	     	{
+	     		"spell_school": "Illusion",
+	     		"source_book": "Players Handbook"
+	     	},
+
+	     		"Color Spray":
+	     	{
+	     		"spell_school": "Illusion",
+	     		"source_book": "Players Handbook"
+	     	},
+
 	     },
+
 	     "level_2":{
 	     	"Aganazzar’s Scorcher":
 	     	{
-	     		"spell_school":"evocation"
+	     		"spell_school":"Evocation",
 	     		"source_book": "Elemental Evil"
 	     	}
 	     },
@@ -31,7 +374,7 @@
 	     	"Animate Dead":
 	     	{
 	     		"spell_school": "Necromancy",
-	     		"source_book": "Player Handbook"
+	     		"source_book": "Players Handbook"
 	     	}
 	     },
 
@@ -39,7 +382,7 @@
 	     	  "Arcane Eye":
 	     	  {
 	     	  	"spell_school": "Divination",
-	     	  	"source_book": "Player's Handbook"
+	     	  	"source_book": "Players Handbook"
 	     	  }
 	     },
 
@@ -47,7 +390,7 @@
 			"Animate Objects":
 			{
 				"spell_school": "Transmutation",
-				"source_book": "Player's Handbook"
+				"source_book": "Players Handbook"
 			}
 	     	
 	     },
@@ -56,7 +399,7 @@
 	     	 "Arcane Gate":
 	     	 {
 	     	 	"spell_school": "Conjuration",
-	     	 	"source_book": "Player's Handbook"
+	     	 	"source_book": "Players Handbook"
 	     	 }
 	     },
 
@@ -64,7 +407,7 @@
 	     	 "Conjure Celestial":
 	     	 {
 	     	 	"spell_school": "Conjuration",
-	     	 	"source_book": "Player's Handbook"
+	     	 	"source_book": "Players Handbook"
 	     	 }
 	     },
 
@@ -80,7 +423,7 @@
 	       	"Astral Projection":
 	       	{
 	       		"spell_school": "Necromancy",
-	       		"source_book": "Player's Handbook"
+	       		"source_book": "Players Handbook"
 	       	}
-	     },
+	     }
 	}
