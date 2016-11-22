@@ -64,9 +64,10 @@
 
 </div>
 <footer>
-<p>&copy;<?php echo date('Y'); ?> Kristinn Logi</p>
+<p></p>
  <div class="Contact_Information">
                     <p>
+                        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
                         Kristinn Logi<br>
                         kiddiflame@gmail.com<br>
                         555-5555<br>
