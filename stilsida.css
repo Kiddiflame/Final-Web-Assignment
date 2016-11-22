@@ -39,3 +39,14 @@ select
   width: 200px; 
   float: left;
 }
+
+.contact_info
+{
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+  background-color: #fff;
+  color: #444;
+
+}
