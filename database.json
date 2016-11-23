@@ -1151,6 +1151,28 @@
       "range" : "60 feet",
       "school" : "Conjuration"
    },
+
+     "Geas":
+   {
+
+   },
+
+     "Gentle Repose":
+   {
+
+   },
+
+     "Giant Insect":
+   {
+
+   },
+
+     "Glibness":
+   {
+
+   },
+
+
    "Globe of Invulnerability" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a glass or crystal bead that shatters when the spell ends)",
@@ -1160,6 +1182,28 @@
       "range" : "Self (10-foot radius)",
       "school" : "Abjuration"
    },
+
+     "Glyph of Warding":
+   {
+
+   },
+
+     "Goodberry":
+   {
+
+   },
+
+     "Grasping Vine":
+   {
+
+   },
+
+     "Grease":
+   {
+
+   },
+
+
    "Greater Invisibility" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1178,6 +1222,13 @@
       "range" : "Touch",
       "school" : "Abjuration"
    },
+
+     "Green-Flame Blade":
+   {
+
+   },
+
+
    "Guardian of Faith" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1187,6 +1238,13 @@
       "range" : "30 feet",
       "school" : "Conjuration"
    },
+
+     "Guards and Wards":
+   {
+
+   },
+
+
    "Guidance" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1196,6 +1254,7 @@
       "range" : "Touch",
       "school" : "Divination"
    },
+
    "Guiding Bolt" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1205,6 +1264,33 @@
       "range" : "120 feet",
       "school" : "Evocation"
    },
+
+     "Gust":
+   {
+
+   },
+
+     "Gust of Wind":
+   {
+
+   },
+
+     "Hail of Thorns":
+   {
+
+   },
+
+     "Hallow":
+   {
+
+   },
+
+     "Hallucinatory Terrain":
+   {
+
+   },
+
+
    "Harm" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1214,6 +1300,7 @@
       "range" : "60 feet",
       "school" : "Necromancy"
    },
+
    "Haste" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a shaving of licorice root)",
@@ -1223,6 +1310,7 @@
       "range" : "30 feet",
       "school" : "Transmutation"
    },
+
    "Heal" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1232,6 +1320,7 @@
       "range" : "60 feet",
       "school" : "Evocation"
    },
+
    "Healing Word" : {
       "casting_time" : "1 bonus action",
       "components" : "V",
@@ -1241,6 +1330,17 @@
       "range" : "60 feet",
       "school" : "Evocation"
    },
+
+     "Heat Metal":
+   {
+
+   },
+
+     "Hellish Rebuke":
+   {
+
+   },
+
    "Heroes’ Feast" : {
       "casting_time" : "10 minutes",
       "components" : "V, S , M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)",
@@ -1250,6 +1350,22 @@
       "range" : "30 feet",
       "school" : "Conjuration"
    },
+
+     "Heroism":
+   {
+
+   },
+
+     "Hex":
+   {
+
+   },
+
+     "Hold Monster":
+   {
+
+   },
+
    "Hold Person" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a small, straight piece of iron)",
@@ -1259,6 +1375,7 @@
       "range" : "60 feet",
       "school" : "Enchantment"
    },
+
    "Holy Aura" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text)",
@@ -1268,6 +1385,27 @@
       "range" : "Self",
       "school" : "Abjuration"
    },
+
+     "Hunger of Hadar":
+   {
+
+   },
+
+     "Hunter's Mark":
+   {
+
+   },
+
+     "Hypnotic Pattern":
+   {
+
+   },
+
+     "Ice Knife":
+   {
+
+   },
+
    "Ice Storm" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a pinch of dust and a few drops of water)",
@@ -1277,6 +1415,7 @@
       "range" : "300 feet",
       "school" : "Evocation"
    },
+
    "Identify" : {
       "casting_time" : "1 minute",
       "components" : "V, S, M (a pearl worth at least 100 gp and an owl feather)",
@@ -1286,6 +1425,20 @@
       "range" : "Touch",
       "school" : "Divination"
    },
+
+
+     "Illusory Script":
+   {
+
+   },
+
+
+     "Immolation":
+   {
+
+   },
+
+
    "Imprisonment" : {
       "casting_time" : "1 minute",
       "components" : "V, S, M (a vellum depiction or a carved statuette in the likeness of the target, and a special component that varies according to the version of the spell you choose, worth at least 500 gp per Hit Die of the target)",
@@ -1295,6 +1448,13 @@
       "range" : "30 feet",
       "school" : "Abjuration"
    },
+
+
+     "Incendiary Cloud":
+   {
+
+   },
+
    "Inflict Wounds" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1304,6 +1464,34 @@
       "range" : "Touch",
       "school" : "Necromancy"
    },
+
+
+     "Insect Plague":
+   {
+
+   },
+
+
+     "Investiture of Flame":
+   {
+
+   },
+
+     "Investiture of Ice":
+   {
+
+   },
+
+     "Investiture of Stone":
+   {
+
+   },
+
+     "Investiture of Wind":
+   {
+
+   },
+
    "Invisibility" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (an eyelash encased in gum arabic)",
@@ -1313,6 +1501,12 @@
       "range" : "Touch",
       "school" : "Illusion"
    },
+
+     "Jump":
+   {
+
+   },
+
    "Knock" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1322,6 +1516,17 @@
       "range" : "60 feet",
       "school" : "Transmutation"
    },
+
+     "Legend Lore":
+   {
+
+   },
+
+     "Leomund's Tiny Hut":
+   {
+
+   },
+
    "Lesser Restoration" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1331,6 +1536,7 @@
       "range" : "Touch",
       "school" : "Abjuration"
    },
+
    "Levitate" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)",
@@ -1340,6 +1546,7 @@
       "range" : "60 feet",
       "school" : "Transmutation"
    },
+
    "Light" : {
       "casting_time" : "1 action",
       "components" : "V, M (a firefly or phosphorescent moss)",
@@ -1349,6 +1556,12 @@
       "range" : "Touch",
       "school" : "Evocation"
    },
+
+  "Lightning Arrow":
+   {
+
+   },
+
    "Lightning Bolt" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a bit of fur and a rod of amber, crystal, or glass)",
@@ -1358,6 +1571,17 @@
       "range" : "Self (100-foot line)",
       "school" : "Evocation"
    },
+
+        "Lightning Lure":
+   {
+
+   },
+
+     "Locate Animals or Plants":
+   {
+
+   },
+
    "Locate Creature" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a bit of fur from a bloodhound)",
@@ -1367,6 +1591,22 @@
       "range" : "Self",
       "school" : "Divination"
    },
+
+     "Locate Object":
+   {
+
+   },
+
+     "Longstrider":
+   {
+
+   },
+
+     "Maelstrom":
+   {
+
+   },
+
    "Mage Armor" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a piece of cured leather)",
@@ -1385,6 +1625,17 @@
       "range" : "30 feet",
       "school" : "Conjuration"
    },
+
+     "Magic Circle":
+   {
+
+   },
+
+     "Magic Jar":
+   {
+
+   },
+
    "Magic Missile" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1394,6 +1645,17 @@
       "range" : "120 feet",
       "school" : "Evocation"
    },
+
+     "Magic Mouth":
+   {
+
+   },
+
+     "Magic Stone":
+   {
+
+   },
+
    "Magic Weapon" : {
       "casting_time" : "1 bonus action",
       "components" : "V, S",
@@ -1448,6 +1710,12 @@
       "range" : "60 feet",
       "school" : "Enchantment"
    },
+
+     "Maximilian's Earthen Grasp":
+   {
+
+   },
+
    "Maze" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1457,6 +1725,33 @@
       "range" : "60 feet",
       "school" : "Conjuration"
    },
+
+     "Meld Into Stone":
+   {
+
+   },
+
+
+        "Melf's Acid Arrow":
+   {
+
+   },
+
+       "Melf's Minute Meteors":
+   {
+
+   },
+
+       "Mending":
+   {
+
+   },
+
+       "Message":
+   {
+
+   },
+
    "Meteor Swarm" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1466,6 +1761,12 @@
       "range" : "1 mile",
       "school" : "Evocation"
    },
+
+       "Mind Blank":
+   {
+
+   },
+
    "Minor Illusion" : {
       "casting_time" : "1 action",
       "components" : "S, M (a bit of fleece)",
@@ -1475,6 +1776,22 @@
       "range" : "30 feet",
       "school" : "Illusion"
    },
+
+       "Mirage Arcane":
+   {
+
+   },
+
+       "Mirror image":
+   {
+
+   },
+
+       "Mislead":
+   {
+
+   },
+
    "Misty Step" : {
       "casting_time" : "1 bonus action",
       "components" : "V",
@@ -1484,6 +1801,38 @@
       "range" : "Self",
       "school" : "Conjuration"
    },
+
+       "Modify Memory":
+   {
+
+   },
+
+       "Mold Earth":
+   {
+
+   },
+
+       "Moonbeam":
+   {
+
+   },
+
+       "Mordenkainen’s Faithful Hound":
+   {
+
+   },
+
+       "Mordenkainen’s Magnificent Mansion":
+   {
+
+   },
+
+       "Mordenkainen’s private Sanctum":
+   {
+
+   },
+
+
    "Mordenkainen’s Sword" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)",
@@ -1493,6 +1842,32 @@
       "range" : "60 feet",
       "school" : "Evocation"
    },
+
+    "Move Earth":
+   {
+
+   },
+
+       "Nondetection":
+   {
+
+   },
+
+    "Nystul's Magic Aura":
+   {
+
+   },
+
+    "Otiluke's Freezing Sphere":
+   {
+
+   },
+
+    "Otiluke's Resilient Sphere":
+   {
+
+   },
+
    "Otto’s Irresistible Dance" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1502,6 +1877,12 @@
       "range" : "30 feet",
       "school" : "Enchantment"
    },
+
+    "Pass Without Trace":
+   {
+
+   },
+
    "Passwall" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a pinch of sesame seeds)",
@@ -1511,6 +1892,42 @@
       "range" : "30 feet",
       "school" : "Transmutation"
    },
+
+    "Phantasmal Force":
+   {
+
+   },
+
+  "Phantasmal Killer":
+   {
+
+   },
+
+    "Phantom Steed":
+   {
+
+   },
+
+    "Planar Ally":
+   {
+
+   },
+
+    "Planar Binding":
+   {
+
+   },
+
+    "Plane Shift":
+   {
+
+   },
+
+    "Plant Growth":
+   {
+
+   },
+
    "Poison Spray" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1520,6 +1937,17 @@
       "range" : "10 feet",
       "school" : "Conjuration"
    },
+
+    "Polymorph":
+   {
+
+   },
+
+    "Power Word Heal":
+   {
+
+   },
+
    "Power Word Kill" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1556,6 +1984,37 @@
       "range" : "10 feet",
       "school" : "Transmutation"
    },
+
+    "Primordial Ward":
+   {
+
+   },
+
+    "Prismatic Spray":
+   {
+
+   },
+
+    "Prismatic Wall":
+   {
+
+   },
+
+    "Produce Flame":
+   {
+
+   },
+
+    "Programmed Illusion":
+   {
+
+   },
+
+    "Project Image":
+   {
+
+   },
+
    "Protection from Energy" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1565,6 +2024,28 @@
       "range" : "Touch",
       "school" : "Abjuration"
    },
+
+
+    "Protection from Evil and Good":
+   {
+
+   },
+
+    "Protection from Poison":
+   {
+
+   },
+
+    "Purify Food and Drink":
+   {
+
+   },
+
+ "Pyrotechnics":
+   {
+
+   },
+
    "Raise Dead" : {
       "casting_time" : "1 hour",
       "components" : "V, S, M (a diamond worth at least 500 gp, which the spell consumes)",
@@ -1574,6 +2055,18 @@
       "range" : "Touch",
       "school" : "Necromancy"
    },
+
+    "Rary's Telepathic Bond":
+   {
+
+   },
+
+    "Ray of Enfeeblement":
+   {
+
+   },
+
+
    "Ray of Frost" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1583,6 +2076,12 @@
       "range" : "60 feet",
       "school" : "Evocation"
    },
+
+    "Ray of Sickness":
+   {
+
+   },
+
    "Regenerate" : {
       "casting_time" : "1 minute",
       "components" : "V, S, M (a prayer wheel and holy water)",
@@ -1592,6 +2091,12 @@
       "range" : "Touch",
       "school" : "Transmutation"
    },
+
+    "Reincarnate":
+   {
+
+   },
+
    "Remove Curse" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1619,6 +2124,13 @@
       "range" : "Touch",
       "school" : "Necromancy"
    },
+
+    "Reverse Gravity":
+   {
+
+   },
+
+
    "Revivify" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (diamonds worth 300 gp, which the spell consumes)",
@@ -1628,6 +2140,12 @@
       "range" : "Touch",
       "school" : "Conjuration"
    },
+
+    "Rope Trick":
+   {
+
+   },
+
    "Sacred Flame" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1646,6 +2164,54 @@
       "range" : "30 feet",
       "school" : "Abjuration"
    },
+
+    "Scorching Ray":
+   {
+
+   },
+
+     "Scrying":
+   {
+
+   },
+
+   
+      "Searing Smite":
+   {
+
+   },
+
+      "See Invisibility":
+   {
+
+   },
+
+      "Seeming":
+   {
+
+   },
+
+      "Sending":
+   {
+
+   },
+
+      "Sequester":
+   {
+
+   },
+
+      "Shape Water":
+   {
+
+   },
+
+      "Shapechange":
+   {
+
+   },
+
+
    "Shatter" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a chip of mica)",
@@ -1673,6 +2239,12 @@
       "range" : "60 feet",
       "school" : "Abjuration"
    },
+
+      "Shillelagh":
+   {
+
+   },
+
    "Shocking Grasp" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1700,6 +2272,17 @@
       "range" : "60 feet",
       "school" : "Illusion"
    },
+
+      "Simalcrum":
+   {
+
+   },
+
+      "Skywrite":
+   {
+
+   },
+
    "Sleep" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
@@ -1709,6 +2292,22 @@
       "range" : "90 feet",
       "school" : "Enchantment"
    },
+
+      "Sleet Storm":
+   {
+
+   },
+
+      "Slow":
+   {
+
+   },
+
+      "Sniloc's Snowball Swarm":
+   {
+
+   },
+
    "Spare the Dying" : {
       "casting_time" : "1 action",
       "components" : "V, S",
@@ -1718,6 +2317,12 @@
       "range" : "Touch",
       "school" : "Necromancy"
    },
+
+      "Speak with Animals":
+   {
+
+   },
+
    "Speak with Dead" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (burning incense)",
@@ -1727,6 +2332,12 @@
       "range" : "10 feet",
       "school" : "Necromancy"
    },
+
+      "Speak with Plants":
+   {
+
+   },
+
    "Spider Climb" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a drop of bitumen and a spider)",
@@ -1736,6 +2347,12 @@
       "range" : "Touch",
       "school" : "Transmutation"
    },
+
+      "Spike Growth":
+   {
+
+   },
+
    "Spirit Guardians" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a holy symbol)",
@@ -1754,6 +2371,22 @@
       "range" : "60 feet",
       "school" : "Evocation"
    },
+
+      "Staggering Smite":
+   {
+
+   },
+
+      "Stinking Cloud":
+   {
+
+   },
+
+      "Stone Shape":
+   {
+
+   },
+
    "Stoneskin" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (diamond dust worth 100 gp, which the spell consumes)",
@@ -1763,6 +2396,17 @@
       "range" : "Touch",
       "school" : "Abjuration"
    },
+
+      "Storm of Vengence":
+   {
+
+   },
+
+      "Storm Sphere":
+   {
+
+   },
+
    "Suggestion" : {
       "casting_time" : "1 action",
       "components" : "V, M (a snake’s tongue and either a bit of honeycomb or a drop of sweet oil)",
@@ -1772,6 +2416,12 @@
       "range" : "30 feet",
       "school" : "Enchantment"
    },
+
+      "Sunbeam":
+   {
+
+   },
+
    "Sunburst" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (fire and a piece of sunstone)",
@@ -1781,6 +2431,42 @@
       "range" : "150 feet",
       "school" : "Evocation"
    },
+
+      "Swift Quiver":
+   {
+
+   },
+
+      "Sword Burst":
+   {
+
+   },
+
+      "Symbol":
+   {
+
+   },
+
+      "Tasha's Hideous Laughter":
+   {
+
+   },
+
+      "Tasha's Hideous Laughter":
+   {
+
+   },
+
+      "Telekinesis":
+   {
+
+   },
+
+      "Telepathy":
+   {
+
+   },
+
    "Teleport" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1790,6 +2476,17 @@
       "range" : "10 feet",
       "school" : "Conjuration"
    },
+
+      "Teleportation Circle":
+   {
+
+   },
+
+      "Tenser's Floating Disk":
+   {
+
+   },
+
    "Thaumaturgy" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -1799,6 +2496,22 @@
       "range" : "30 feet",
       "school" : "Transmutation"
    },
+
+      "Thorn Whip":
+   {
+
+   },
+
+      "Thunderclap":
+   {
+
+   },
+
+      "Thunderous Smite":
+   {
+
+   },
+
    "Thunderwave" : {
       "casting_time" : "1 action",
       "components" : "V, S",
