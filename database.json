@@ -240,42 +240,90 @@
 
    "Aura of Life":
    {
-
+      "casting_time" : "1 action",
+      "components" : "V",
+      "description" : "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spll ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the arua with 0 hit points.",
+      "duration" : "Concentration, up to 10 minutes",
+      "level" : 4,
+      "range" : "Self(30-foot-radius)",
+      "school" : "Abjuration"
    },
 
    "Aura of Purity":
    {
-
+         "casting_time" : "1 action",
+      "components" : "V",
+      "description" : "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can’t become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blnded, charmed, deafended, frightened, paralyzed, poisoned, and stunned.",
+      "duration" : "Concentration, up to 10 minutes",
+      "level" : 4,
+      "range" : "Self(30-foot-radius)",
+      "school" : "Abjuration"
    },
 
    "Aura of Vitality":
    {
-
+         "casting_time" : "1 action",
+      "components" : "V",
+      "description" : "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+      "duration" : "Concentration, up to 1 minute",
+      "level" : 3,
+      "range" : "Self(30-foot-radius)",
+      "school" : "Abjuration"
    },
 
    "Awaken":
    {
-
+          "casting_time" : "8 hours",
+      "components" : "V, S, M (an agate worth at least 1,000 gp, which the spell consumes)",
+      "description" : "After spending the casting time tracing magical pathways within a precious gemstone, you touch a huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vinces, creepers, and so forth, and it gains senses similar to a huamn’s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree. The awakened beast or plant is charmed by you for 30 days or until you and your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.",
+      "duration" : "Instantaneous",
+      "level" : 5,
+      "range" : "Touch",
+      "school" : "Transmutation"
    },
 
    "Bane": 
    {
-
+         "casting_time" : "1 action",
+      "components" : "V, S, M (A drop of blood)",
+      "description" : "Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.",
+      "duration" : "concentration, up to 1 minute",
+      "level" : 1,
+      "range" : "30 feet",
+      "school" : "Enchantment"
    },
 
    "Banishing Smite": 
    {
-
+        "casting_time" : "1 bonus action",
+      "components" : "V",
+      "description" : "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the on you’re on, the target disappears, returning to its home plane. If the target is native to the plane you’re on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
+      "duration" : "concentration, up to 1 minute",
+      "level" : 5,
+      "range" : "Self",
+      "school" : "Abjuration" 
    },
 
    "Banishment": 
    {
-
+         "casting_time" : "1 action",
+      "components" : "V, S, M (an item distasteful to the target)",
+      "description" : "You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished. If the target is native to the plane of existence you’re on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence that the one you’re on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn’t return.",
+      "duration" : "Concentration, up to 1 minute ",
+      "level" : 4,
+      "range" : "60 feet",
+      "school" : "Abjuration"
    },
 
    "Barkskin": 
    {
-
+         "casting_time" : "1 action",
+      "components" : "V,S,M(A handful of oak bark)",
+      "description" : "You touch a willing creature. Until the spellends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing.",
+      "duration" : "Concentration, up to 1 hour",
+      "level" : 2,
+      "range" : "Touch",
+      "school" : "Transmutation"
    },
 
    "Beacon of Hope" : {
@@ -289,24 +337,49 @@
    },
 
    "Beast Bond": 
-   {
-
+   { 
+      "casting_time" : "1 action",
+      "components" : "V, S, M(a bit of fur wrapped in a cloth)",
+      "description" : "You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spellfails if the beast’s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see.",
+      "duration" : "Concentration, up to 10 minutes",
+      "level" : 1,
+      "range" : "Touch",
+      "school" : "Divination"
+       
    },
 
    "Beast Sense": 
    {
-
+          "casting_time" : "1 action",
+      "components" : "S",
+      "description" : "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast’s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.",
+      "duration" : "Concentration, up to an hour",
+      "level" : 2,
+      "range" : "Touch",
+      "school" : "Divination"
    },
 
    "Bestow Curse": 
    {
-
+         "casting_time" : "1 action",
+      "components" : "V, S",
+      "description" : "You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell.",
+      "duration" : "Concentration, up to 1 minute",
+      "level" : 3,
+      "range" : "Touch",
+      "school" : "Necromancy"
    },
 
    "Bigbys Hand": 
    {
-
-   },
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
+   },    
 
    "Blade Barrier" : {
       "casting_time" : "1 action",
@@ -320,7 +393,13 @@
 
    "Blade Ward": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Bless" : {
@@ -335,22 +414,46 @@
 
    "Blight": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Blinding Smite": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Blindness/Deafness": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Blink": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Blur" : {
@@ -365,17 +468,35 @@
 
    "Bones of the Earth":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Booming Blade": 
    {
-
+               "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Branding Smite": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Burning Hands" : {
@@ -390,17 +511,35 @@
 
    "Call Lightning": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Calm Emotions": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Catapult": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Chain Lightning" : {
@@ -424,47 +563,101 @@
 
    "Chill Touch": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Chromatic Orb": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Circle of Death": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Circle of Power": 
    {
-
-   },
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
+   },    
 
    "Clairvoyance":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Clone":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Cloud of Daggers":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Cloudkill":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Color Spray":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Command" : {
@@ -488,12 +681,24 @@
 
    "Commune with Nature": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Compelled Duel": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Comprehend Languages" : {
@@ -508,7 +713,13 @@
 
    "Compulsion": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Cone of Cold" : {
@@ -523,92 +734,200 @@
 
     "Confusion": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Conjure Animals": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Barrage": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Celestial": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Elemental": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Fey": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Minor Elementals": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Valley": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Conjure Woodland Beings": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Contact Other Plane": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Contagion": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Contingency": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Continual Flame": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Control Flames": 
    {
-
-   },
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
+   },    
 
    "Control Water": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Control Weather": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Control Winds": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Cordon of Arrows": 
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Counterspell" : {
@@ -623,37 +942,79 @@
 
    "Create Bonfire":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Create Food and Water":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Create or Destroy Water":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Create Undead":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Creation":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Crown of Madness":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Cruseaders Mantle":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Cure Wounds" : {
@@ -686,12 +1047,24 @@
 
     "Darkvision":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
     "Daylight":
    {
-
+         "casting_time" : "",
+      "components" : "",
+      "description" : "",
+      "duration" : "",
+      "level" : ,
+      "range" : "",
+      "school" : ""
    },
 
    "Death Ward" : {
