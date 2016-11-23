@@ -2521,6 +2521,12 @@
       "range" : "Self (15-foot cube)",
       "school" : "Evocation"
    },
+
+  "Tidal Wave":
+   {
+
+   },
+
    "Time Stop" : {
       "casting_time" : "1 action",
       "components" : "V",
@@ -2530,6 +2536,37 @@
       "range" : "Self",
       "school" : "Transmutation"
    },
+
+     "Tongues":
+   {
+
+   },
+
+     "Transmute Rock":
+   {
+
+   },
+
+     "Transport via Plants":
+   {
+
+   },
+
+     "Trap the Soul":
+   {
+
+   },
+
+     "Tree Stride":
+   {
+
+   },
+
+     "True Polymorph":
+   {
+
+   },
+
    "True Resurrection" : {
       "casting_time" : "1 hour",
       "components" : "V, S, M (a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes)",
@@ -2548,7 +2585,39 @@
       "range" : "Touch",
       "school" : "Divination"
    },
-   "Wall of Fire" : {
+
+     "True Strike":
+   {
+
+   },
+
+     "Tsunami":
+   {
+
+   },
+
+     "Unseen Servant":
+   {
+
+   },
+
+     "Vampiric Touch":
+   {
+
+   },
+
+     "Voicious Mockery":
+   {
+
+   },
+
+     "Vitriolic Sphere":
+   {
+
+   },
+
+
+      "Wall of Fire" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a small piece of phosphorus)",
       "description" : "You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration. When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save. One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage. At Higher Levels. When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.",
@@ -2557,6 +2626,23 @@
       "range" : "120 feet",
       "school" : "Evocation"
    },
+
+     "Wall of Force":
+   {
+
+   },
+
+
+ "Wall of Ice":
+   {
+
+   },
+
+    "Wall of Sand":
+   {
+
+   },
+
    "Wall of Stone" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a small block of granite)",
@@ -2566,7 +2652,18 @@
       "range" : "120 feet",
       "school" : "Evocation"
    },
-   "Warding Bond" : {
+
+    "Wall of Thorns":
+   {
+
+   },
+
+    "Wall of Water":
+   {
+
+   },
+
+      "Warding Bond" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and the target must wear for the duration)",
       "description" : "This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage. The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action.",
@@ -2575,6 +2672,28 @@
       "range" : "Touch",
       "school" : "Abjuration"
    },
+
+       "Warding Wind":
+   {
+
+   },
+
+    "Water Breathing":
+   {
+
+   },
+
+    "Water Walk":
+   {
+
+   },
+
+    "Watery Sphere":
+   {
+
+   },
+
+
    "Web" : {
       "casting_time" : "1 action",
       "components" : "V, S, M (a bit of spiderweb)",
@@ -2583,5 +2702,50 @@
       "level" : 2,
       "range" : "60 feet",
       "school" : "Conjuration"
+   },
+
+    "Weird":
+   {
+
+   },
+
+    "Whirlwind":
+   {
+
+   },
+
+    "Wind Walk":
+   {
+
+   },
+
+    "Wind Wall":
+   {
+
+   },
+
+    "Wish":
+   {
+
+   },
+
+    "Witch Bolt":
+   {
+
+   },
+
+    "Word of Recall":
+   {
+
+   },
+
+    "Wrathful Smite":
+   {
+
+   },
+
+    "Zone of Truth":
+   {
+
    }
 }
