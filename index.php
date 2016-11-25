@@ -24,7 +24,7 @@
 <?php
 if (!$_POST || $_POST['Classes'] == 'Bard') {
   
-  echo 'selected';
+  echo 'selected_class';
 }
 ?>
 ">Bard</option>
@@ -32,7 +32,7 @@ if (!$_POST || $_POST['Classes'] == 'Bard') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Cleric') {
  
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Cleric
@@ -42,7 +42,7 @@ if (!$_POST || $_POST['Classes'] == 'Cleric') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Druid') {
  
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Druid
@@ -51,7 +51,7 @@ if (!$_POST || $_POST['Classes'] == 'Druid') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Paladin') {
   
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Paladin
@@ -61,7 +61,7 @@ if (!$_POST || $_POST['Classes'] == 'Paladin') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Ranger') {
   
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Ranger
@@ -71,7 +71,7 @@ if (!$_POST || $_POST['Classes'] == 'Ranger') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Sorcerer') {
   
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Sorcerer
@@ -81,7 +81,7 @@ if (!$_POST || $_POST['Classes'] == 'Sorcerer') {
 <?php
 if (!$_POST || $_POST['Classes'] == 'Warlock') {
  
-  echo 'selected';
+  echo 'selected_class';
 }
 
 ?>
@@ -91,7 +91,7 @@ if (!$_POST || $_POST['Classes'] == 'Warlock') {
 <option value="Wizard
 <?php
 if (!$_POST || $_POST['Classes'] == 'Wizard') {
-  echo 'selected';
+   echo 'selected_class';
 }
 ?>
 ">Wizard
@@ -108,7 +108,7 @@ if (!$_POST || $_POST['Classes'] == 'Wizard') {
 <?php
 if (!$_POST || $_POST['Spells'] == '0') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 0</option>
@@ -116,7 +116,7 @@ if (!$_POST || $_POST['Spells'] == '0') {
 <?php
 if (!$_POST || $_POST['Spells'] == '1') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 1</option>
@@ -125,7 +125,7 @@ if (!$_POST || $_POST['Spells'] == '1') {
 <?php
 if (!$_POST || $_POST['Spells'] == '2') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 2</option>
@@ -133,7 +133,7 @@ if (!$_POST || $_POST['Spells'] == '2') {
 <?php
 if (!$_POST || $_POST['Spells'] == '3') {
   
-  echo 'selected';
+ echo 'selected_spell';
 }
 ?>
 ">Level 3</option>
@@ -142,7 +142,7 @@ if (!$_POST || $_POST['Spells'] == '3') {
 <?php
 if (!$_POST || $_POST['Spells'] == '4') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 4</option>
@@ -151,7 +151,7 @@ if (!$_POST || $_POST['Spells'] == '4') {
 <?php
 if (!$_POST || $_POST['Spells'] == '5') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 5</option>
@@ -160,7 +160,7 @@ if (!$_POST || $_POST['Spells'] == '5') {
 <?php
 if (!$_POST || $_POST['Spells'] == '6') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 6</option>
@@ -169,7 +169,7 @@ if (!$_POST || $_POST['Spells'] == '6') {
 <?php
 if (!$_POST || $_POST['Spells'] == '7') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 7</option>
@@ -178,7 +178,7 @@ if (!$_POST || $_POST['Spells'] == '7') {
 <?php
 if (!$_POST || $_POST['Spells'] == '8') {
   
-  echo 'selected';
+  echo 'selected_spell';
 }
 ?>
 ">Level 8</option>
@@ -187,7 +187,7 @@ if (!$_POST || $_POST['Spells'] == '8') {
 <?php
 if (!$_POST || $_POST['Spells'] == '9') {
   
-  echo 'selected';
+ echo 'selected_spell';
 }
 ?>
 ">Level 9</option>
@@ -203,7 +203,7 @@ if (!$_POST || $_POST['Spells'] == '9') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Abjuration') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Abjuration</option>
@@ -211,7 +211,7 @@ if (!$_POST || $_POST['Schools'] == 'Abjuration') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Illusion') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Illusion</option>
@@ -220,7 +220,7 @@ if (!$_POST || $_POST['Schools'] == 'Illusion') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Conjuration') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Conjuration</option>
@@ -228,7 +228,7 @@ if (!$_POST || $_POST['Schools'] == 'Conjuration') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Enchantment') {
   
-  echo 'selected';
+ echo 'selected_school';
 }
 ?>
 ">Enchantment</option>
@@ -237,7 +237,7 @@ if (!$_POST || $_POST['Schools'] == 'Enchantment') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Evocation') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Evocation</option>
@@ -246,7 +246,7 @@ if (!$_POST || $_POST['Schools'] == 'Evocation') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Divination') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Divination</option>
@@ -255,7 +255,7 @@ if (!$_POST || $_POST['Schools'] == 'Divination') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Necromancy') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Necromancy</option>
@@ -264,7 +264,7 @@ if (!$_POST || $_POST['Schools'] == 'Necromancy') {
 <?php
 if (!$_POST || $_POST['Schools'] == 'Transmutation') {
   
-  echo 'selected';
+  echo 'selected_school';
 }
 ?>
 ">Transmutation</option>
@@ -275,15 +275,24 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
 
 </li>
 
-		<li>search button</li>
+		<form action="#" method="POST">
+			<input type="submit" name="Search">
+		</form>
 	</ul>
 </div>
 <div class="search_text">
 <section class="row">
-  <div class="block"><p>Sed ut persp</p></div>
-  <div class="block"><p>blabla</p></div>
-   <div class="block"><p>blabla</p></div>
-    <div class="block"><p>blabla</p></div>
+  <?php
+$json = file_get_contents('test.json');
+$spells = json_decode($json, true);
+echo array_search('Fireball', $spells, true);
+
+?>
+
+  <!--<div class="block"><p></p></div>
+  <div class="block"><p></p></div>
+   <div class="block"><p></p></div>
+    <div class="block"><p>bla</p></div>-->
 </section>
 	
 
