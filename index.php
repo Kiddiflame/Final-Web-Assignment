@@ -285,14 +285,23 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
   <?php
 $json = file_get_contents('test.json');
 $spells = json_decode($json, true);
-echo array_search('Fireball', $spells, true);
 
 ?>
 
-  <!--<div class="block"><p></p></div>
-  <div class="block"><p></p></div>
+  <div class="block">
+  <?php echo "<p>"; 
+  		echo array_search('casting_time', $spells['Acid_Splash']);
+  		echo "</p>";
+  ?>
+  </div>
+  <div class="block">
+  	<?php echo "<p>"; 
+  		echo array_search('school', $spells['Acid_Splash']);
+  		echo "</p>";
+  ?>
+  </div>
    <div class="block"><p></p></div>
-    <div class="block"><p>bla</p></div>-->
+    <div class="block"><p>bla</p></div>
 </section>
 	
 
