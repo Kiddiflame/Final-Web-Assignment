@@ -1,9 +1,5 @@
   html { 
-    background: url(img/magic_blueBackground.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+     background: url(img/darkPattern.png) repeat;
   }
 
   body
@@ -12,12 +8,37 @@
   	margin: 0 auto;
   	width: 100%;
   	font-size: 1.5em;
-  	 color: white;
+  	color: white;
     text-shadow:
     -1px -1px 0 #696969,
     1px -1px 0 #696969,
     -1px 1px 0 #696969,
     1px 1px 0 #696969; 
+  }
+
+
+  .main_text
+  {
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: georgia;
+
+  }
+
+ 
+
+
+
+  .title
+  {
+    text-align: center;
+    margin-top: 1em;
+
   }
 
   .search_text
@@ -42,6 +63,9 @@ select
 {
   width: 200px; 
   float: left;
+  font-family: Tahoma;
+  background: #f4f4f4;
+  border-radius: 5px;
 }
 
 .Contact_Information
@@ -49,10 +73,11 @@ select
       text-align: right;
       font-size: .7em;
 
+
 } 
 .Contact_Information p
 {
-        position: absolute;
+        position: relative;
         bottom: 0;
         right: 0;
         color: white;
@@ -71,14 +96,26 @@ margin: 0 auto;
   background: rgba(0,0,0,0.3);
 }
 
-@media screen and (min-width: 37.5em){
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80px;
+    height:25px;
+    font-family: Tahoma;
+    background: #f4f4f4;
+    
+    
+  
+}
+
+@media screen and (min-width: 15em){
 .row {
     flex: 1 1 0; 
-   text-align: center;
- box-sizing: border-box;
+    text-align: center;
+    box-sizing: border-box;
     border-width: 0 1px 1px 0;
     display: flex;
-flex-flow: row;
+    flex-flow: row;
 }
 
 }

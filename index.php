@@ -5,14 +5,22 @@
 	<link rel="stylesheet" type="text/css" href="stilsida.css">
 </head>
 <body>
+
+<div class="border"></div>
+
 <div class="title">Final Assignment</div>
-<div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
+
+
+<div class="main_text"><h4>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h4>
 <ul>
-	<li>A large number of spells fall are unique to certain spell casting "classes"</li>
-	<li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
-	<li>All the spells fall under 8 different schools with different abilities and uses</li>
+  <li>A large number of spells fall are unique to certain spell casting "classes"</li>
+  <li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
+  <li>All the spells fall under 8 different schools with different abilities and uses</li>
 </ul>
 </div>
+
+
+
 <div class="search_options">
 	<ul>
 <li>
@@ -274,14 +282,19 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
 </select>
 
 </li>
+<<<<<<< HEAD
 
 		<form action="#" method="POST">
 			<input type="submit" name="Search">
 		</form>
+=======
+		<input type="submit">
+>>>>>>> refs/remotes/origin/thomas
 	</ul>
 </div>
 <div class="search_text">
 <section class="row">
+<<<<<<< HEAD
   <?php
 $json = file_get_contents('test.json');
 $spells = json_decode($json, true);
@@ -302,6 +315,12 @@ $spells = json_decode($json, true);
   </div>
    <div class="block"><p></p></div>
     <div class="block"><p>bla</p></div>
+=======
+  <div class="block"><p>Name</p></div>
+  <div class="block"><p>Casting time</p></div>
+   <div class="block"><p>Level</p></div>
+    <div class="block"><p>Spell School</p></div>
+>>>>>>> refs/remotes/origin/thomas
 </section>
 	
 
