@@ -282,19 +282,15 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
 </select>
 
 </li>
-<<<<<<< HEAD
 
 		<form action="#" method="POST">
 			<input type="submit" name="Search">
 		</form>
-=======
 		<input type="submit">
->>>>>>> refs/remotes/origin/thomas
 	</ul>
 </div>
 <div class="search_text">
 <section class="row">
-<<<<<<< HEAD
   <?php
 $json = file_get_contents('test.json');
 $spells = json_decode($json, true);
@@ -315,12 +311,10 @@ $spells = json_decode($json, true);
   </div>
    <div class="block"><p></p></div>
     <div class="block"><p>bla</p></div>
-=======
   <div class="block"><p>Name</p></div>
   <div class="block"><p>Casting time</p></div>
    <div class="block"><p>Level</p></div>
     <div class="block"><p>Spell School</p></div>
->>>>>>> refs/remotes/origin/thomas
 </section>
 	
 
