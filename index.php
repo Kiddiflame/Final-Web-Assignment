@@ -286,7 +286,6 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
 		<form action="#" method="POST">
 			<input type="submit" name="Search">
 		</form>
-		<input type="submit">
 	</ul>
 </div>
 <div class="search_text">

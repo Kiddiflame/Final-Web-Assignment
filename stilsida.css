@@ -4,11 +4,11 @@
 
   body
   {
-  	color: white;
-  	margin: 0 auto;
-  	width: 100%;
-  	font-size: 1.5em;
-  	color: white;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.5em;
+    color: white;
     text-shadow:
     -1px -1px 0 #696969,
     1px -1px 0 #696969,
@@ -16,29 +16,26 @@
     1px 1px 0 #696969; 
   }
 
-
   .main_text
   {
-    
     border: 1px solid white;
     border-radius: 5px;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 1em;
     padding: 1em;
-    font-family: georgia;
+    font-family: calibri;
+    display: block;
 
   }
 
- 
-
-
-
   .title
   {
+    display: flex;
     text-align: center;
     margin-top: 1em;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .search_text
@@ -46,18 +43,16 @@
       color: white;
       background-color: rgba(255, 255, 255, 0.3);
       text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
-  		border: 1px solid;
-  		border-color: black;
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000; 
+      border: 1px solid;
+      border-color: black;
       display: flex;
       flex-flow: row;
       margin: 0 auto;
-
   }
-
 
 select
 {
@@ -72,9 +67,8 @@ select
 {
       text-align: right;
       font-size: .7em;
-
-
 } 
+
 .Contact_Information p
 {
         position: relative;
@@ -83,7 +77,6 @@ select
         color: white;
         margin-right: 1em;
         margin-bottom: 1em;
-
 }
 
 .block
@@ -103,10 +96,45 @@ input[type=submit] {
     height:25px;
     font-family: Tahoma;
     background: #f4f4f4;
-    
-    
-  
 }
+
+iframe
+{
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 670px){
+
+iframe
+{
+  width: 355px;
+  height: 260px;
+}
+
+.main_text
+{
+  font-size: 80%;
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+iframe
+{
+  width: 200px;
+  height: 132px;
+}
+
+.main_text
+{
+  font-size: 60%;
+}
+
+}
+
 
 @media screen and (min-width: 15em){
 .row {
@@ -117,5 +145,6 @@ input[type=submit] {
     display: flex;
     flex-flow: row;
 }
+
 
 }
