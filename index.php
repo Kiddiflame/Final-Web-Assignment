@@ -13,7 +13,7 @@
 
 <div class = "img1"><img src="img/header1.jpg"></div>
 
-<p>Final Assignment</p>
+<p>Final Assignment Title</p>
 
 <div class = "img2"><img src="img/header2.jpg"></div>
 
