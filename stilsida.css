@@ -109,6 +109,18 @@ iframe
   margin: 0 auto;
 }
 
+.info
+{
+  border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: calibri;
+    display: block;
+}
+
 @media screen and (max-width: 1500px){
 
 .title img
@@ -129,7 +141,7 @@ iframe
 
 .title img
 {
-  width: 350px;
+  width: 35 0px;
   height: auto;
 }
 
@@ -149,7 +161,7 @@ iframe
   height: 260px;
 }
 
-.main_text
+.main_text, .info
 {
   font-size: 80%;
 }
@@ -164,7 +176,7 @@ iframe
   height: 132px;
 }
 
-.main_text
+.main_text, .info
 {
   font-size: 60%;
 }
@@ -190,3 +202,4 @@ iframe
 
 
 }
+
