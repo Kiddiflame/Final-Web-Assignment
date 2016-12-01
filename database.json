@@ -372,13 +372,13 @@
 
    "Bigbys Hand": 
    {
-         "casting_time" : "",
-      "components" : "",
-      "description" : "",
-      "duration" : "",
-      "level" : ,
-      "range" : "",
-      "school" : ""
+         "casting_time" : "1 action",
+      "components" : "V, S, M(An eggshell and a snakeskin glove)",
+      "description" : "You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell’s duration, and it moves at your command, mimicking the movements of your own hand. The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn’t fill its space. When you cast the spell and as a bonus action on your subsequent turns, you can move the hand up to 60 feet and then cause one of the following effects with it. Clenched Fist, Forceful Hand, Grasping Hand, Interposing Hand",
+      "duration" : "Concentration, up to one minute",
+      "level" : 5,
+      "range" : "120 feet",
+      "school" : "Evocation"
    },    
 
    "Blade Barrier" : {
@@ -393,13 +393,13 @@
 
    "Blade Ward": 
    {
-         "casting_time" : "",
-      "components" : "",
-      "description" : "",
-      "duration" : "",
-      "level" : ,
-      "range" : "",
-      "school" : ""
+         "casting_time" : "1 action",
+      "components" : "V, S",
+      "description" : "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.",
+      "duration" : "1 round",
+      "level" : 0,
+      "range" : "Self",
+      "school" : "Abjuration"
    },
 
    "Bless" : {
@@ -685,7 +685,7 @@
       "components" : "",
       "description" : "",
       "duration" : "",
-      "level" : ,
+      "level" : ,            
       "range" : "",
       "school" : ""
    },
