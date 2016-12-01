@@ -183,17 +183,23 @@ selected_school">Transmutation</option>
   <th>Spell School</th>
   </tr>
  <?php
-file_get_contents('test.json');
-  $spell_list = json_decode('test.json', true);
+$json = file_get_contents('test.json');
+  $spell_list = json_decode($json, true);
   
  
-   foreach ($spell_list['Spells'] as $Spells) {
-      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
+   foreach ($spell_list['Spells'] as $Spells) 
+   {
+      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST['selected_spell'] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
      {
       echo '<tr><td>'.$Spells['name'].'</td><td>';
        echo '<tr><td>'.$Spells['level'].'</td></tr>';
         echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
          echo '<tr><td>'.$Spells['school'].'</td></tr>';
+    }
+
+    else
+    {
+      echo "<p>Ekkert sem passaði við leit</p>";
     }
   }
   
