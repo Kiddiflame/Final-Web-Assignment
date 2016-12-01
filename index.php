@@ -203,8 +203,41 @@ file_get_contents('test.json');
                         kiddiflame@gmail.com<br>
                         555-5555<br>
                     </p>
+
+                        
+<div id="share-buttons">
+ 
+    
+    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+    </a>
+    
+  
+    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+    </a>
+    
+    
+    <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
+    </a>
+     
+    
+    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    </a>
+
                 </div>
+
+
+
 </footer>
+
+
+    
+    
+
+</div>
 
 </body>
 </html>
