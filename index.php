@@ -187,7 +187,7 @@ file_get_contents('test.json');
   $spell_list = json_decode('test.json', true);
   
  
-   foreach ($spell_list['Spells'] as $Spells) {
+   /*foreach ($spell_list['Spells'] as $Spells) {
       if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
      {
       echo '<tr><td>'.$Spells['name'].'</td><td>';
@@ -195,7 +195,7 @@ file_get_contents('test.json');
         echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
          echo '<tr><td>'.$Spells['school'].'</td></tr>';
     }
-  }
+  }*/
   
  
 
