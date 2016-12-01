@@ -1,78 +1,101 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Final Assignment</title>
-  <link rel="stylesheet" type="text/css" href="stilsida.css">
+	<title>Final Assignment</title>
+	<link rel="stylesheet" type="text/css" href="stilsida.css">
 </head>
 <body>
-
-<div class="border"></div>
-
-<div class="title">
-
-<div class = "img1"><img src="img/header1.jpg"></div>
-
-<p>Final Assignment</p>
-
-<div class = "img2"><img src="img/header2.jpg"></div>
-
-</div>
-
-
-<div class="main_text"><h4>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h4>
+<div class="title">Final Assignment</div>
+<div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
 <ul>
-  <li>A large number of spells fall are unique to certain spell casting "classes"</li>
-  <li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
-  <li>All the spells fall under 8 different schools with different abilities and uses</li>
+	<li>A large number of spells fall are unique to certain spell casting "classes"</li>
+	<li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
+	<li>All the spells fall under 8 different schools with different abilities and uses</li>
 </ul>
-
-<div class="video">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LkFGOaa6tQA" frameborder="0" allowfullscreen></iframe>
-
-
-
 </div>
-
-</div>
-
-
-
 <div class="search_options">
-  <ul>
+	<ul>
 <li>
 
 <!--Spell caster classes-->
 
 <select name="Classes" id="Classes">
 <option value="Bard
-selected_class">Bard</option>
+<?php
+if (!$_POST || $_POST['Classes'] == 'Bard') {
+  
+  echo 'selected_class';
+}
+
+?>
+">Bard</option>
 <option value ="Cleric
-selected_class">Cleric
+<?php
+if (!$_POST || $_POST['Classes'] == 'Cleric') {
+ 
+   echo 'selected_class';
+}
+?>
+">Cleric
 </option>
 
 <option value="Druid
-selected_class">Druid
+<?php
+if (!$_POST || $_POST['Classes'] == 'Druid') {
+ 
+   echo 'selected_class';
+}
+?>
+">Druid
 </option>
 <option value ="Paladin
-selected_class">Paladin
+<?php
+if (!$_POST || $_POST['Classes'] == 'Paladin') {
+  
+   echo 'selected_class';
+}
+?>
+">Paladin
 </option>
 
 <option value ="Ranger
-selected_class">Ranger
+<?php
+if (!$_POST || $_POST['Classes'] == 'Ranger') {
+  
+   echo 'selected_class';
+}
+?>
+">Ranger
 </option>
 
 <option value="Sorcerer
-selected_class">Sorcerer
+<?php
+if (!$_POST || $_POST['Classes'] == 'Sorcerer') {
+  
+   echo 'selected_class';
+}
+?>
+">Sorcerer
 </option>
 
 <option value ="Warlock
-selected_class">Warlock
+<?php
+if (!$_POST || $_POST['Classes'] == 'Warlock') {
+ 
+  echo 'selected_class';
+}
+
+?>
+">Warlock
 </option>
 
 <option value="Wizard
-selected_class">Wizard
+<?php
+if (!$_POST || $_POST['Classes'] == 'Wizard') {
+   echo 'selected_class';
+}
+?>
+">Wizard
 </option>
 
 
@@ -83,32 +106,92 @@ selected_class">Wizard
 
 <select name="Spells" id="Spells">
 <option value="0
-selected_spell">Level 0</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '0') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 0</option>
 <option value="1
-selected_spell">Level 1</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '1') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 1</option>
 
 <option value="2
-selected_spell">Level 2</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '2') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 2</option>
 <option value="3
-selected_spell">Level 3</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '3') {
+  
+ echo 'selected_spell';
+}
+?>
+">Level 3</option>
 
 <option value="4
-selected_spell">Level 4</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '4') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 4</option>
 
 <option value="5
-selected_spell">Level 5</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '5') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 5</option>
 
 <option value="6
-selected_spell">Level 6</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '6') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 6</option>
 
 <option value="7
-selected_spell">Level 7</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '7') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 7</option>
 
 <option value="8
-selected_spell">Level 8</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '8') {
+  
+  echo 'selected_spell';
+}
+?>
+">Level 8</option>
 
 <option value="9
-selected_spell">Level 9</option>
+<?php
+if (!$_POST || $_POST['Spells'] == '9') {
+  
+ echo 'selected_spell';
+}
+?>
+">Level 9</option>
 
 </select>
 
@@ -118,26 +201,74 @@ selected_spell">Level 9</option>
 
 <select name="Schools" id="Schools">
 <option value="Abjuration
-selected_school">Abjuration</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Abjuration') {
+  
+  echo 'selected_school';
+}
+?>
+">Abjuration</option>
 <option value="Illusion
-selected_school">Illusion</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Illusion') {
+
+  echo 'selected_school';
+}
+?>
+">Illusion</option>
 
 <option value="Conjuration
-selected_school">Conjuration</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Conjuration') {
+  
+  echo 'selected_school';
+}
+?>
+">Conjuration</option>
 <option value="Enchantment
-selected_school">Enchantment</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Enchantment') {
+  
+ echo 'selected_school';
+}
+?>
+">Enchantment</option>
 
 <option value="Evocation
-selected_school">Evocation</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Evocation') {
+  
+  echo 'selected_school';
+}
+?>
+">Evocation</option>
 
 <option value="Divination
-selected_school">Divination</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Divination') {
+  
+  echo 'selected_school';
+}
+?>
+">Divination</option>
 
 <option value="Necromancy
-selected_school">Necromancy</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Necromancy') {
+  
+  echo 'selected_school';
+}
+?>
+">Necromancy</option>
 
 <option value="Transmutation
-selected_school">Transmutation</option>
+<?php
+if (!$_POST || $_POST['Schools'] == 'Transmutation') {
+  
+  echo 'selected_school';
+}
+?>
+">Transmutation</option>
 
 
 
@@ -145,45 +276,35 @@ selected_school">Transmutation</option>
 
 </li>
 
-
-    <form action="#" method="POST">
-      <input type="submit" name="Search">
-    </form>
-
-    
-
-  </ul>
+		<form action="#" method="POST">
+			<input type="submit" name="Search">
+		</form>
+	</ul>
 </div>
-
-
-
-
 <div class="search_text">
 <section class="row">
+  <?php
+$json = file_get_contents('test.json');
+$spells = json_decode($json, true);
 
+?>
 
-
-  
   <div class="block">
-  <p>1 action</p>  </div>
+
+  ?>
+  </div>
   <div class="block">
-    <p>level</p>  </div>
+  </div>
    <div class="block"><p></p></div>
     <div class="block"><p>bla</p></div>
-
-  <div class="block"><p>Name</p></div>
-  <div class="block"><p>Casting time</p></div>
-   <div class="block"><p>Level</p></div>
-    <div class="block"><p>Spell School</p></div>
-
 </section>
-  
+	
 
 </div>
 <footer>
  <div class="Contact_Information">
                     <p>
-                        &copy;2016 Tskola verkefni<br>
+                        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
                         Kristinn Logi<br>
                         kiddiflame@gmail.com<br>
                         555-5555<br>
