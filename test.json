@@ -9,7 +9,7 @@
          "duration": "Instantaneous",
          "level": 0,
          "range": "60 feet",
-         "Conjuration": "school",
+         "school":"Conjuration",
          "Classes": [{
             "class": "Wizard"
          }, {

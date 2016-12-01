@@ -2,7 +2,7 @@
 if (isset($_POST['Search'])) 
 {
   $search_Class = $_POST['Classes'];
-  $search_Level = $_POST['Levels'];
+  $search_Level = $_POST['Spells'];
   $search_School = $_POST['Schools'];
 }
 ?>
@@ -41,7 +41,7 @@ if (isset($_POST['Search']))
 </li>
 <!--Spell Selection options-->
   <li>
-<select name="Spells" id="Levels">
+<select name="Spells" id="Level">
 <option value="0">Level 0</option>
 <option value="1">Level 1</option>
 <option value="2">Level 2</option>
@@ -121,18 +121,18 @@ $spells = json_decode($json, true);
   <th>Spell School</th>
   </tr>
  <?php
-file_get_contents('test.json');
-  $spell_list = json_decode('test.json', true);
+  $json = file_get_contents('test.json');
+  $spell_list = json_decode($json, true);
   if (isset($search_Class) && isset($search_Level) && isset($search_School))
   {
-       foreach ($spell_list['Spells'] as $Spells) {
-      if($search_Class == $spell_list['classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
-     {
-      echo '<tr><td>'.$Spells['name'].'</td><td>';
-       echo '<tr><td>'.$Spells['level'].'</td></tr>';
-        echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
-         echo '<tr><td>'.$Spells['school'].'</td></tr>';
-    }
+       foreach ($spell_list['Spells'] as $spells) {
+      /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
+     {*/
+      echo '<tr><td>'.$spells['name'].'</td><td>';
+       echo '<tr><td>'.$spells['level'].'</td></tr>';
+        echo '<tr><td>'.$spells['casting_time'].'</td></tr>'; 
+         echo '<tr><td>'.$spells['school'].'</td></tr>';
+    //}
   }
   }
   else
