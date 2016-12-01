@@ -121,6 +121,22 @@ iframe
     display: block;
 }
 
+.row2 table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.row2 th, td
+{
+  border: none;
+  text-align: left;
+  padding: 5px;
+
+}
+
 @media screen and (max-width: 1500px){
 
 .title img
@@ -188,7 +204,6 @@ iframe
 }
 
 }
-
 
 @media screen and (min-width: 15em){
 .row {

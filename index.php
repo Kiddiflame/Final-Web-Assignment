@@ -13,7 +13,7 @@
 
 <div class = "img1"><img src="img/header1.jpg"></div>
 
-<p>Final Assignment Title</p>
+<p>D&D Spellbook Appendix</p>
 
 <div class = "img2"><img src="img/header2.jpg"></div>
 
@@ -149,35 +149,24 @@ selected_school">Transmutation</option>
   </ul>
 </div>
 
-<!--<div class="search_text">
-<section class="rows">
 
-<div class="row1">
-   <div class="block">
-  <p>Name</p>
-  </div>
-
-  <div class="block">
-  <p>Casting time</p>
-  </div>
-
-   <div class="block">
-   <p>Level</p>
-   </div>
-
-    <div class="block">
-    <p>Spell School</p>
-    </div>
-</div>-->
 <div class="row2">
- 
  <table border="1">  
-<tr>
-  <th>Spell Name</th>
-  <th>Spell Level</th>
-  <th>Casting time</th>
-  <th>Spell School</th>
+  <tr>
+    <th>Spell Name</th>
+    <th>Spell Level</th>
+    <th>Casting time</th>
+    <th>Spell School</th>
   </tr>
+  <tr>
+    <td>Value</td>
+    <td>Value</td>
+    <td>Value</td>
+    <td>Value</td>
+  </tr>
+  <tr>
+</table>
+
  <?php
 file_get_contents('test.json');
   $spell_list = json_decode('test.json', true);
@@ -193,7 +182,6 @@ file_get_contents('test.json');
     }
   }*/
   
- 
 
     ?>
     </table>
