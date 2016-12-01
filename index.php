@@ -150,34 +150,61 @@ selected_school">Transmutation</option>
       <input type="submit" name="Search">
     </form>
 
-    
-
   </ul>
 </div>
 
+<!--<div class="search_text">
+<section class="rows">
 
+<div class="row1">
+   <div class="block">
+  <p>Name</p>
+  </div>
 
+  <div class="block">
+  <p>Casting time</p>
+  </div>
 
-<div class="search_text">
-<section class="row">
+   <div class="block">
+   <p>Level</p>
+   </div>
 
-
-
+    <div class="block">
+    <p>Spell School</p>
+    </div>
+</div>-->
+<div class="row2">
+ 
+ <table border="1">  
+<tr>
+  <th>Spell Name</th>
+  <th>Spell Level</th>
+  <th>Casting time</th>
+  <th>Spell School</th>
+  </tr>
+ <?php
+/* file_get_contents('test.json');
+  $spell_list = json_decode('test.json');
   
-  <div class="block">
-  <p>1 action</p>  </div>
-  <div class="block">
-    <p>level</p>  </div>
-   <div class="block"><p></p></div>
-    <div class="block"><p>bla</p></div>
-
-  <div class="block"><p>Name</p></div>
-  <div class="block"><p>Casting time</p></div>
-   <div class="block"><p>Level</p></div>
-    <div class="block"><p>Spell School</p></div>
+ 
+   foreach ($spell_list as $Spells => $value) {
+      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
+     {
+      echo '<tr><td>'.$Spells['name'].'</td><td>';
+       echo '<tr><td>'.$Spells['level'].'</td></tr>';
+        echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
+         echo '<tr><td>'.$Spells['school'].'</td></tr>';
+    }
+  }
+  
+ 
+*/
+    ?>
+    </table>
+</div>
+ 
 
 </section>
-  
 
 </div>
 <footer>
@@ -190,5 +217,7 @@ selected_school">Transmutation</option>
                     </p>
                 </div>
 </footer>
+
 </body>
 </html>
+
