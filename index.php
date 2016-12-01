@@ -276,6 +276,7 @@ if (!$_POST || $_POST['Schools'] == 'Transmutation') {
 
 </li>
 
+
 		<form action="#" method="POST">
 			<input type="submit" name="Search">
 		</form>
@@ -300,6 +301,66 @@ $spells = json_decode($json, true);
 </section>
 	
 
+    <form action="#" method="POST">
+      <input type="submit" name="Search">
+    </form>
+
+  </ul>
+</div>
+
+<!--<div class="search_text">
+<section class="rows">
+
+<div class="row1">
+   <div class="block">
+  <p>Name</p>
+  </div>
+
+  <div class="block">
+  <p>Casting time</p>
+  </div>
+
+   <div class="block">
+   <p>Level</p>
+   </div>
+
+    <div class="block">
+    <p>Spell School</p>
+    </div>
+</div>-->
+<div class="row2">
+ 
+ <table border="1">  
+<tr>
+  <th>Spell Name</th>
+  <th>Spell Level</th>
+  <th>Casting time</th>
+  <th>Spell School</th>
+  </tr>
+ <?php
+file_get_contents('test.json');
+  $spell_list = json_decode('test.json', true);
+  
+ 
+   foreach ($spell_list['Spells'] as $Spells) {
+      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
+     {
+      echo '<tr><td>'.$Spells['name'].'</td><td>';
+       echo '<tr><td>'.$Spells['level'].'</td></tr>';
+        echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
+         echo '<tr><td>'.$Spells['school'].'</td></tr>';
+    }
+  }
+  
+ 
+
+    ?>
+    </table>
+</div>
+ 
+
+</section>
+
 </div>
 <footer>
  <div class="Contact_Information">
@@ -311,5 +372,7 @@ $spells = json_decode($json, true);
                     </p>
                 </div>
 </footer>
+
 </body>
 </html>
+
