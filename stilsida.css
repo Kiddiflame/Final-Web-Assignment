@@ -1,63 +1,63 @@
-  html { 
-     background: url(img/darkPattern.png) repeat;
-  }
+html 
+{ 
+  background: url(img/darkPattern.png) repeat;
+}
 
-  body
-  {
-    color: white;
-    margin: 0 auto;
-    width: 100%;
-    font-size: 1.5em;
-    color: white;
-    text-shadow:
-    -1px -1px 0 #696969,
-    1px -1px 0 #696969,
-    -1px 1px 0 #696969,
-    1px 1px 0 #696969; 
-  }
+body
+{
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #696969,
+  1px -1px 0 #696969,
+  -1px 1px 0 #696969,
+  1px 1px 0 #696969; 
+}
 
-  .main_text
-  {
-    border: 1px solid white;
-    border-radius: 5px;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
-    padding: 1em;
-    font-family: calibri;
-    display: block;
+.main_text
+{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  font-family: calibri;
+  display: block;
+}
 
-  }
+.title
+{
+  display: flex;
+  text-align: center;
+  margin-top: 1em;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
-  .title
-  {
-    display: flex;
-    text-align: center;
-    margin-top: 1em;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
+.title img
+{
+  border-radius: 5px;
+}
 
-  .title img
-  {
-    border-radius: 5px;
-  }
-
-  .search_text
-  {
-      color: white;
-      background-color: rgba(255, 255, 255, 0.3);
-      text-shadow:
-      -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-      1px 1px 0 #000; 
-      border: 1px solid;
-      border-color: black;
-      display: flex;
-      flex-flow: row;
-      margin: 0 auto;
-  }
+.search_text
+{
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000; 
+  border: 1px solid;
+  border-color: black;
+  display: flex;
+  flex-flow: row;
+  margin: 0 auto;
+}
 
 select
 {
@@ -70,23 +70,23 @@ select
 
 .Contact_Information
 {
-      text-align: right;
-      font-size: .7em;
+  text-align: right;
+  font-size: .7em;
 } 
 
 .Contact_Information p
 {
-        position: relative;
-        bottom: 0;
-        right: 0;
-        color: white;
-        margin-right: 1em;
-        margin-bottom: 1em;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  color: white;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .block
 {
-margin: 0 auto;
+  margin: 0 auto;
   text-align: center;
   flex: 1 1 0;
   border:1px solid black;  
@@ -94,13 +94,14 @@ margin: 0 auto;
   background: rgba(0,0,0,0.3);
 }
 
-input[type=submit] {
-    border-radius: 5px;
-    border: 0;
-    width: 80px;
-    height:25px;
-    font-family: Tahoma;
-    background: #f4f4f4;
+input[type=submit] 
+{
+  border-radius: 5px;
+  border: 0;
+  width: 80px;
+  height:25px;
+  font-family: Tahoma;
+  background: #f4f4f4;
 }
 
 iframe
@@ -112,13 +113,13 @@ iframe
 .info
 {
   border: 1px solid white;
-    border-radius: 5px;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
-    padding: 1em;
-    font-family: calibri;
-    display: block;
+  border-radius: 5px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  padding: 1em;
+  font-family: calibri;
+  display: block;
 }
 
 .row2 table
@@ -133,15 +134,15 @@ iframe
   border: none;
   text-align: left;
   padding: 5px;
-
 }
 
-#share-buttons img {
-width: 35px;
-padding: 5px;
-border: 0;
-box-shadow: 0;
-display: inline;
+#share-buttons img 
+{
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
 }
 
 @media screen and (max-width: 1500px){
@@ -151,6 +152,7 @@ display: inline;
   width: 500px;
   height: auto;
 }
+}
 
 @media screen and (max-width: 1300px){
 
@@ -158,6 +160,7 @@ display: inline;
 {
   width: 400px;
   height: auto;
+}
 }
 
 @media screen and (max-width: 1050px){
@@ -172,9 +175,7 @@ display: inline;
 {
   flex-direction: column;
 }
-
 }
-
 
 @media screen and (max-width: 670px){
 
@@ -188,7 +189,6 @@ iframe
 {
   font-size: 80%;
 }
-
 }
 
 @media screen and (max-width: 500px){
@@ -209,7 +209,6 @@ iframe
   width: 200px;
   height: auto;
 }
-
 }
 
 @media screen and (min-width: 15em){
@@ -221,7 +220,5 @@ iframe
     display: flex;
     flex-flow: row;
 }
-
-
 }
 
