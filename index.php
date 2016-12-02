@@ -143,12 +143,12 @@ file_get_contents('test.json');
 
 <footer>
  <div class="Contact_Information">
-                    <p>
-                        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
-                        Kristinn Logi<br>
-                        kiddiflame@gmail.com<br>
-                        555-5555<br>
-                    </p>
+      <p>
+        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
+        Kristinn Logi<br>
+        kiddiflame@gmail.com<br>
+        555-5555<br>
+      </p>
 
                         
 <div id="share-buttons">
