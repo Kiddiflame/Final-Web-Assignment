@@ -103,15 +103,34 @@ if (isset($_POST['Search']))
     <td>Value</td>
     <td>Value</td>
   </tr>
-  <tr>
+ <?php
+  $json = file_get_contents('test.json');
+  $spell_list = json_decode($json, true);
+  if (isset($search_Class) && isset($search_Level) && isset($search_School))
+  {
+       foreach ($spell_list['Spells'] as $spells) {
+      /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
+     {*/
+      echo '<tr>';
+      echo '<td>'.$spells['name'].'</td>';
+       echo '<td>'.$spells['level'].'</td>';
+        echo '<td>'.$spells['casting_time'].'</td>'; 
+         echo '<td>'.$spells['school'].'</td>';
+         echo '</tr>';
+    //}
+  }
+  }
+  else
+  {
+    echo 'vinsamlegast submittaðu search form';
+
+  }
+    ?>
 </table>
 
- <?php
 
-$json = file_get_contents('test.json');
-  $spell_list = json_decode($json, true);
  
-   /*foreach ($spell_list['Spells'] as $Spells) {
+   <!--foreach ($spell_list['Spells'] as $Spells) {
       if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
 
      {
@@ -127,28 +146,8 @@ $json = file_get_contents('test.json');
       echo "<p>Ekkert sem passaði við leit</p>";
     }
 
-  }*/
+  }-->
 
-  $json = file_get_contents('test.json');
-  $spell_list = json_decode($json, true);
-  if (isset($search_Class) && isset($search_Level) && isset($search_School))
-  {
-       foreach ($spell_list['Spells'] as $spells) {
-      /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
-     {*/
-      echo '<tr><td>'.$spells['name'].'</td><td>';
-       echo '<tr><td>'.$spells['level'].'</td></tr>';
-        echo '<tr><td>'.$spells['casting_time'].'</td></tr>'; 
-         echo '<tr><td>'.$spells['school'].'</td></tr>';
-    //}
-  }
-  }
-  else
-  {
-    echo 'vinsamlegast submittaðu search form';
-
-  }
-    ?>
  
 
 <div class="info"><p>The spell casting classes in D&D are often referred to in tiers of "full casters", "half casters" and "quarter casters". The strength and diversity of said spell casters depends on what tier they fall into.</p><p>The "full casters" include: Wizards, Sorcerers, Warlocks, Druids and Clerics</p><p>The "half casters" include: Bard, Paladin and Ranger(the quarter casters are only subtypes of non spell casting classes, and thus are not featured)</p></div>
@@ -158,7 +157,7 @@ $json = file_get_contents('test.json');
  <div class="Contact_Information">
                     <p>
                         &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
-                        Kristinn Logi<br>
+                        Kristinn Logi, Thomas Ari Plank<br>
                         kiddiflame@gmail.com<br>
                         555-5555<br>
                     </p>
