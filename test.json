@@ -10,9 +10,9 @@
          "level": 0,
          "range": "60 feet",
          "school":"Conjuration",
-         "Classes": [{
-            "class": "Wizard"
-         }, {
+         "Classes": [
+            {"class": "Wizard"},
+          {
             "class": "Sorcerer"
          }]
       },
