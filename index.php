@@ -33,11 +33,9 @@ if (isset($_POST['Search']))
   </div>
 
   <div class="search_options">
-	 <ul>
-
     <li>
       <!--Spell caster classes-->
-      <form action="#" method="POST">
+      <form action="" method="POST">
         <select name="Classes" id="Classes">
           <option value="Bard">Bard</option>
           <option value ="Cleric">Cleric</option>
@@ -65,7 +63,7 @@ if (isset($_POST['Search']))
         <option value="9">Level 9</option>
       </select>
     </li>
-
+<!--School select options-->
     <li>
       <select name="Schools" id="Schools">
         <option value="Abjuration">Abjuration</option>
@@ -78,57 +76,40 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
+<<<<<<< HEAD
   
     <form action="#" method="POST">
-		  <input type="submit" name="Search">
+			<input class="search_button" type="submit" name="Search">
 		</form>
-
-	 </ul>
-  </div>
-
-  <div class="row2">
-    <table border="1">  
-      <tr>
-        <th>Spell Name</th>
-        <th>Spell Level</th>
-        <th>Casting time</th>
-        <th>Spell School</th>
-      </tr>
-      <tr>
-        <td>Value</td>
-        <td>Value</td>
-        <td>Value</td>
-        <td>Value</td>
-      </tr>
-    </table>
+	
+</div>
 
  <?php
-
-file_get_contents('test.json');
-  $spell_list = json_decode('test.json', true);
-  
- 
-   /*foreach ($spell_list['Spells'] as $Spells) {
-      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
-     {
-      echo '<tr><td>'.$Spells['name'].'</td><td>';
-       echo '<tr><td>'.$Spells['level'].'</td></tr>';
-        echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
-         echo '<tr><td>'.$Spells['school'].'</td></tr>';
-    }
-  }*/
-
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
+  $Spells = $spell_list['Spells'];
+  /*echo "<pre>"; 
+  print_r($Spells);
+  echo "</pre>";*/
   if (isset($search_Class) && isset($search_Level) && isset($search_School))
   {
-       foreach ($spell_list['Spells'] as $spells) {
+    echo '<div class="row2">
+ <table border="1">  
+  <tr>
+    <th>Spell Name</th>
+    <th>Spell Level</th>
+    <th>Casting time</th>
+    <th>Spell School</th>
+  </tr>';
+       foreach ($Spells as $entry => $value) {
       /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
      {*/
-      echo '<tr><td>'.$spells['name'].'</td><td>';
-       echo '<tr><td>'.$spells['level'].'</td></tr>';
-        echo '<tr><td>'.$spells['casting_time'].'</td></tr>'; 
-         echo '<tr><td>'.$spells['school'].'</td></tr>';
+      echo '<tr>';
+      echo '<td>'.$value['name'].'</td>';
+       echo '<td>'.$value['level'].'</td>';
+        echo '<td>'.$value['casting_time'].'</td>'; 
+         echo '<td>'.$value['school'].'</td>';
+         echo '</tr>';
     //}
   }
   }
@@ -136,20 +117,19 @@ file_get_contents('test.json');
   {
     echo 'vinsamlegast submittaðu search form';
   }
-  ?>
- 
-  <div class="info"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></div>
+    ?>
+</table>
 
+<div class="info"><p>The spell casting classes in D&D are often referred to in tiers of "full casters", "half casters" and "quarter casters". The strength and diversity of said spell casters depends on what tier they fall into.</p><p>The "full casters" include: Wizards, Sorcerers, Warlocks, Druids and Clerics</p><p>The "half casters" include: Bard, Paladin and Ranger(the quarter casters are only subtypes of non spell casting classes, and thus are not featured)</p></div>
 
 <footer>
  <div class="Contact_Information">
-      <p>
+    <p>
         &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
-        Kristinn Logi<br>
+        Kristinn Logi, Thomas Ari Plank<br>
         kiddiflame@gmail.com<br>
         555-5555<br>
-      </p>
-
+    </p>
                         
 <div id="share-buttons">
  
@@ -174,15 +154,7 @@ file_get_contents('test.json');
     </a>
 
     </div>
-
 </footer>
-
-
-    
-    
-
 </div>
-
 </body>
 </html>
-
