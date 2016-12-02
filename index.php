@@ -84,17 +84,10 @@ if (isset($_POST['Search']))
     </li>
   
     <form action="#" method="POST">
-  
-
-
-
 			<input type="submit" name="Search">
 		</form>
 	</ul>
 </div>
-
-
-
 
 <div class="row2">
  <table border="1">  
@@ -117,16 +110,6 @@ if (isset($_POST['Search']))
 
 $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
-  
- 
-   foreach ($spell_list['Spells'] as $Spells) 
-   {
-      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST['selected_spell'] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
-
-
-file_get_contents('test.json');
-  $spell_list = json_decode('test.json', true);
-  
  
    /*foreach ($spell_list['Spells'] as $Spells) {
       if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
@@ -165,13 +148,10 @@ file_get_contents('test.json');
     echo 'vinsamlegast submittaðu search form';
 
   }
-
-  
-
     ?>
  
 
-<div class="info"><p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p></div>
+<div class="info"><p>The spell casting classes in D&D are often referred to in tiers of "full casters", "half casters" and "quarter casters". The strength and diversity of said spell casters depends on what tier they fall into.</p><p>The "full casters" include: Wizards, Sorcerers, Warlocks, Druids and Clerics</p><p>The "half casters" include: Bard, Paladin and Ranger(the quarter casters are only subtypes of non spell casting classes, and thus are not featured)</p></div>
 
 
 <footer>
@@ -207,15 +187,7 @@ file_get_contents('test.json');
     </a>
 
     </div>
-
 </footer>
-
-
-    
-    
-
 </div>
-
 </body>
 </html>
-
