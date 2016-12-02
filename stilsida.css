@@ -28,7 +28,18 @@
     display: block;
 
   }
+ol
+{
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 1em;
+}
 
+.search_button
+{
+  margin-left: 3em;
+}
   .title
   {
     display: flex;

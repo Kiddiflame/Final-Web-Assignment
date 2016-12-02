@@ -37,7 +37,7 @@ if (isset($_POST['Search']))
   </div>
 
   <div class="search_options">
-	 <ul>
+	 <ol>
     <li>
 
       <!--Spell caster classes-->
@@ -69,7 +69,7 @@ if (isset($_POST['Search']))
         <option value="9">Level 9</option>
       </select>
     </li>
-
+<!--School select options-->
     <li>
       <select name="Schools" id="Schools">
         <option value="Abjuration">Abjuration</option>
@@ -82,11 +82,11 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
-  
-    <form action="#" method="POST">
-			<input type="submit" name="Search">
+</ol>
+
+			<input class="search_button" type="submit" name="Search">
 		</form>
-	</ul>
+	
 </div>
 
 <div class="row2">
@@ -127,28 +127,6 @@ if (isset($_POST['Search']))
   }
     ?>
 </table>
-
-
- 
-   <!--foreach ($spell_list['Spells'] as $Spells) {
-      if($_POST['selected_class'] == $spell_list['classes']['class'] && $_POST[selected_spell] == $spell_list['level'] && $_POST['selected_school'] == $spell_list['school'])
-
-     {
-      echo '<tr><td>'.$Spells['name'].'</td><td>';
-       echo '<tr><td>'.$Spells['level'].'</td></tr>';
-        echo '<tr><td>'.$Spells['casting_time'].'</td></tr>'; 
-         echo '<tr><td>'.$Spells['school'].'</td></tr>';
-    }
-
-
-    else
-    {
-      echo "<p>Ekkert sem passaði við leit</p>";
-    }
-
-  }-->
-
- 
 
 <div class="info"><p>The spell casting classes in D&D are often referred to in tiers of "full casters", "half casters" and "quarter casters". The strength and diversity of said spell casters depends on what tier they fall into.</p><p>The "full casters" include: Wizards, Sorcerers, Warlocks, Druids and Clerics</p><p>The "half casters" include: Bard, Paladin and Ranger(the quarter casters are only subtypes of non spell casting classes, and thus are not featured)</p></div>
 
