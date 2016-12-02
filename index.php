@@ -41,7 +41,7 @@ if (isset($_POST['Search']))
     <li>
 
       <!--Spell caster classes-->
-      <form action="#" method="POST">
+      <form action="" method="POST">
         <select name="Classes" id="Classes">
           <option value="Bard">Bard</option>
           <option value ="Cleric">Cleric</option>
@@ -89,25 +89,19 @@ if (isset($_POST['Search']))
 	
 </div>
 
-<div class="row2">
+ <?php
+  $json = file_get_contents('test.json');
+  $spell_list = json_decode($json, true);
+  if (isset($search_Class) && isset($search_Level) && isset($search_School))
+  {
+    echo '<div class="row2">
  <table border="1">  
   <tr>
     <th>Spell Name</th>
     <th>Spell Level</th>
     <th>Casting time</th>
     <th>Spell School</th>
-  </tr>
-  <tr>
-    <td>Value</td>
-    <td>Value</td>
-    <td>Value</td>
-    <td>Value</td>
-  </tr>
- <?php
-  $json = file_get_contents('test.json');
-  $spell_list = json_decode($json, true);
-  if (isset($search_Class) && isset($search_Level) && isset($search_School))
-  {
+  </tr>';
        foreach ($spell_list['Spells'] as $spells) {
       /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
      {*/
