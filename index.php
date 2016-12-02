@@ -92,6 +92,10 @@ if (isset($_POST['Search']))
  <?php
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
+  $Spells = $spell_list['Spells'];
+  /*echo "<pre>"; 
+  print_r($Spells);
+  echo "</pre>";*/
   if (isset($search_Class) && isset($search_Level) && isset($search_School))
   {
     echo '<div class="row2">
@@ -102,14 +106,14 @@ if (isset($_POST['Search']))
     <th>Casting time</th>
     <th>Spell School</th>
   </tr>';
-       foreach ($spell_list['Spells'] as $spells) {
+       foreach ($Spells as $entry => $value) {
       /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
      {*/
       echo '<tr>';
-      echo '<td>'.$spells['name'].'</td>';
-       echo '<td>'.$spells['level'].'</td>';
-        echo '<td>'.$spells['casting_time'].'</td>'; 
-         echo '<td>'.$spells['school'].'</td>';
+      echo '<td>'.$value['name'].'</td>';
+       echo '<td>'.$value['level'].'</td>';
+        echo '<td>'.$value['casting_time'].'</td>'; 
+         echo '<td>'.$value['school'].'</td>';
          echo '</tr>';
     //}
   }
