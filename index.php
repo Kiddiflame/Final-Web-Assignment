@@ -88,9 +88,15 @@ if (isset($_POST['Search']))
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
-  /*echo "<pre>"; 
+
+  // $key = 0
+  /*foreach ($Spells as $key) {
+ 
+  		$Class_list = $key["Classes"][]['class'];
+  }*/
+  echo "<pre>"; 
   print_r($Spells);
-  echo "</pre>";*/
+  echo "</pre>";
   if (isset($search_Class) && isset($search_Level) && isset($search_School))
   {
     echo '<div class="row2">
@@ -101,16 +107,24 @@ if (isset($_POST['Search']))
     <th>Casting time</th>
     <th>Spell School</th>
   </tr>';
-       foreach ($Spells as $entry => $value) {
-      /*if($search_Class == $spell_list['Classes']['class'] && $search_Level == $spell_list['level'] && $search_School == $spell_list['school'])
+       foreach ($Spells as $entry) {
+      /*if($search_Class == $classes && $search_Level == $Spells['level'] && $search_School == $spell_list['school'])
      {*/
+     	/*foreach ($Class_list as $key => $value) {
+     		
+     		if ($value['class'] == $search_Class) {
+     			$class_validation = true;
+     		}
+     	}*/
+     	 if($search_Level == $entry['level'] && $search_School == $entry['school'] /*&& isset($class_validation)*/)
+     {
       echo '<tr>';
-      echo '<td>'.$value['name'].'</td>';
-       echo '<td>'.$value['level'].'</td>';
-        echo '<td>'.$value['casting_time'].'</td>'; 
-         echo '<td>'.$value['school'].'</td>';
+      echo '<td>'.$entry['name'].'</td>';
+       echo '<td>'.$entry['level'].'</td>';
+        echo '<td>'.$entry['casting_time'].'</td>'; 
+         echo '<td>'.$entry['school'].'</td>';
          echo '</tr>';
-    //}
+    }
   }
   }
   else
