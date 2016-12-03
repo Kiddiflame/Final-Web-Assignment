@@ -76,7 +76,7 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
-      
+
     <form action="#" method="POST">
 			<input class="search_button" type="submit" name="Search">
 		</form>
@@ -147,22 +147,22 @@ if (isset($_POST['Search']))
 <div id="share-buttons">
  
     
-    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+    <a href="https://www.facebook.com/dungeonsanddragons/">
         <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
     </a>
     
   
-    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+    <a href="https://plus.google.com/collection/wZFFZ" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
     </a>
     
     
-    <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+    <a href="https://www.reddit.com/r/DnD/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
     </a>
      
     
-    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+    <a href= "https://twitter.com/Wizards_DnD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
 
