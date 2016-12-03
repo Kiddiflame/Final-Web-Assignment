@@ -76,8 +76,7 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
-<<<<<<< HEAD
-  
+      
     <form action="#" method="POST">
 			<input class="search_button" type="submit" name="Search">
 		</form>
