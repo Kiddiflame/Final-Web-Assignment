@@ -22,8 +22,8 @@ if (isset($_POST['Search']))
       <div class = "img2"><img src="img/header2.jpg"></div>
   </div>
 
-  <div class="main_text"><h4>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h4>
-    <div class="title">Final Assignment</div>
+  <div class="main_text"><h4>Welcome to D&D Spellbook Appendix. You will be able to choose your Class, Spell Level and Schools to find out your matches. </h4>
+    <div class="title">D&D Spellbook Appendix</div>
     <div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
     <ul>
 	   <li>A large number of spells fall are unique to certain spell casting "classes"</li>
@@ -89,9 +89,9 @@ if (isset($_POST['Search']))
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
 
-for ($i=0; $i < 214; $i++) { 
+/*for ($i=0; $i < 214; $i++) { 
   $Class_list = $Spells[$i]['Classes']['class'];
-}
+}*/
 
   // $key = 0
   /*foreach ($Spells as $key) {
