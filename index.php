@@ -88,6 +88,7 @@ if (isset($_POST['Search']))
 	
 </div>
 
+
  <?php
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
@@ -159,8 +160,7 @@ else
         kiddiflame@gmail.com<br>
         555-5555<br>
     </p>
-        </div>                    
-<div id="share-buttons">
+    <div id="share-buttons">
  
     
     <a href="https://www.facebook.com/dungeonsanddragons/">
@@ -184,6 +184,8 @@ else
 
 
     </div>
+        </div>                    
+
 </footer>
 </body>
 </html>

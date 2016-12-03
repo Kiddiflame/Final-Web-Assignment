@@ -162,7 +162,6 @@ iframe
   border: 0;
   box-shadow: 0;
   display: inline;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 1500px){
