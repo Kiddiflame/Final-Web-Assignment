@@ -93,6 +93,12 @@ if (isset($_POST['Search']))
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
+
+  // $key = 0
+  /*foreach ($Spells as $key) {
+ 
+  		$Class_list = $key["Classes"][]['class'];
+
   /*foreach ($Spells as $key) {
   	if ($key == 'Classes') {
   		$Class_list = $Spells[$key];
