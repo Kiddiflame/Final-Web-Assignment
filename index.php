@@ -87,25 +87,21 @@ if (isset($_POST['Search']))
   $json = file_get_contents('test.json');
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
-<<<<<<< HEAD
-for ($i=0; $i < 214; $i++) { 
-  $Class_list = $key["Classes"][]['class'];
-}
-=======
 
->>>>>>> 7d159f76197b187ed5916a610ab8ca1bcd2b0912
+for ($i=0; $i < 214; $i++) { 
+  $Class_list = $Spells[$i]['classes']['class'];
+}
+
   // $key = 0
   /*foreach ($Spells as $key) {
  
   		$Class_list = $key["Classes"][]['class'];
-<<<<<<< HEAD
 
   /*foreach ($Spells as $key) {
   	if ($key == 'Classes') {
   		$Class_list = $Spells[$key];
   	}
-=======
->>>>>>> 7d159f76197b187ed5916a610ab8ca1bcd2b0912
+
   }*/
   echo "<pre>"; 
   print_r($Spells);
