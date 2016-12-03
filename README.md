@@ -1,16 +1,12 @@
 # Final_programming_Assignment
 
-#Description:
+# Tæknilegar Lausnir:
 
-<p>make a small and neat, flexible website with that lists several spells from the popular d&d 5e game appear based on searched criteria input from the user. This is useful for fans of the game and can be used as a convenient search tool for any person wanting to play a spell caster</p>
-
-#Usage:
-
-<p>In the website there are 3 search criteria you can choose from, spell casting class, the spell's level, and the spell school, pressing the button should bring up a listing of all the spells that fit that criteria, searching through a large json file, and clicking on the spell brings up a sub page with the spell description</p>
-
-#Issues
-
-<p>Some of the most trouble this assignment was working on the php code, displaying the searched criteria inside of the json file, displaying it all into a table on the html page</p>
+<p>Til að gera vefsíðuna resonsive notuðum við bæði flexbox og framework, til að koma from útlitinu eins og við vildum hafa það, bjuggum til breakpoints svo vefsíðan virki vel á símum og öðrum mobile devices.</p>
+<p>Notuð var json skrá í að geyma gögnin sem voru fléttuð í gegn, og sótti gögnin í php, breyttu þau í associative array og vann með þau út frá því.</p>
+<p>eru þrjú select form í skjalinu og einn submit takki, sem eru notuð í leitunum.</p>
+<p>Þegar notandinn ýtir á submit takkann í forminu, ef öll gögn valin eru til staðar, display-ar síðan öll gögnin sem passa við beiðni.</p>
+<p>Áætlun vefsins er að vera notað sem hjálpar gagn í vinsæla Tabletop Roleplaying Leiknum Dungeons and Dragons, þar sem "spellcasters" hafa marga möguleika til að velja úr, og þetta hjálpar að auðvelda leitin, fyrir það sem maður vill</p>
 #Credits:
 
 <p>Kristinn Logi Jakobsson, Thomas Ari Plank</p>
