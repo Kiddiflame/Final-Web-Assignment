@@ -22,7 +22,7 @@ if (isset($_POST['Search']))
       <div class = "img2"><img src="img/header2.jpg"></div>
   </div>
 
-    <div class="title">Final Assignment</div>
+    
    
   <div class="main_text"><h4>Welcome to D&D Spellbook Appendix. You will be able to choose your Spell Level and Schools to find out your spell name and casting time. </h4>
 
