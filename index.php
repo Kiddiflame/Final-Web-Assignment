@@ -22,10 +22,10 @@ if (isset($_POST['Search']))
       <div class = "img2"><img src="img/header2.jpg"></div>
   </div>
 
-
     <div class="title">Final Assignment</div>
    
-  <div class="main_text"><h4>Welcome to D&D Spellbook Appendix. You will be able to choose your Class, Spell Level and Schools to find out your matches. </h4>
+  <div class="main_text"><h4>Welcome to D&D Spellbook Appendix. You will be able to choose your Spell Level and Schools to find out your spell name and casting time. </h4>
+
     <div class="title">D&D Spellbook Appendix</div>
     <div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
     <ul>
@@ -87,6 +87,7 @@ if (isset($_POST['Search']))
 		</form>
 	
 </div>
+
 
  <?php
   $json = file_get_contents('test.json');
@@ -159,8 +160,7 @@ else
         kiddiflame@gmail.com<br>
         555-5555<br>
     </p>
-        </div>                    
-<div id="share-buttons">
+    <div id="share-buttons">
  
     
     <a href="https://www.facebook.com/dungeonsanddragons/">
@@ -184,6 +184,8 @@ else
 
 
     </div>
+        </div>                    
+
 </footer>
 </body>
 </html>
