@@ -33,6 +33,7 @@ if (isset($_POST['Search']))
   </div>
 
   <div class="search_options">
+  <ol>
     <li>
       <!--Spell caster classes-->
       <form action="" method="POST">
@@ -76,7 +77,7 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
-
+</ol>
     <form action="#" method="POST">
 			<input class="search_button" type="submit" name="Search">
 		</form>
@@ -89,7 +90,7 @@ if (isset($_POST['Search']))
   $Spells = $spell_list['Spells'];
 
 for ($i=0; $i < 214; $i++) { 
-  $Class_list = $Spells[$i]['classes']['class'];
+  $Class_list = $Spells[$i]['Classes']['class'];
 }
 
   // $key = 0
