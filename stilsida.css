@@ -29,6 +29,11 @@ body
   display: block;
 }
 
+.main_text li
+{
+  font-style: italic;
+}
+
 ol
 {
   list-style-type: none;
