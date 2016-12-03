@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['Search'])) 
 {
-  $search_Class = $_POST['Classes'];
+  //$search_Class = $_POST['Classes'];
   $search_Level = $_POST['Spells'];
   $search_School = $_POST['Schools'];
 }
@@ -22,9 +22,8 @@ if (isset($_POST['Search']))
       <div class = "img2"><img src="img/header2.jpg"></div>
   </div>
 
-  <div class="main_text"><h4>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h4>
     <div class="title">Final Assignment</div>
-    <div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
+    <div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3></div>
     <ul>
 	   <li>A large number of spells fall are unique to certain spell casting "classes"</li>
 	   <li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
@@ -37,6 +36,7 @@ if (isset($_POST['Search']))
     <li>
       <!--Spell caster classes-->
       <form action="" method="POST">
+        <!-- 
         <select name="Classes" id="Classes">
           <option value="Bard">Bard</option>
           <option value ="Cleric">Cleric</option>
@@ -47,7 +47,7 @@ if (isset($_POST['Search']))
           <option value ="Warlock">Warlock</option>
           <option value="Wizard">Wizard</option>
         </select>
-    </li>
+    </li>-->
 
     <!--Spell Selection options-->
     <li>
@@ -89,10 +89,6 @@ if (isset($_POST['Search']))
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
 
-for ($i=0; $i < 214; $i++) { 
-  $Class_list = $Spells[$i]['Classes']['class'];
-}
-
   // $key = 0
   /*foreach ($Spells as $key) {
  
@@ -104,10 +100,10 @@ for ($i=0; $i < 214; $i++) {
   	}
 
   }*/
-  echo "<pre>"; 
+  /*echo "<pre>"; 
   print_r($Spells);
-  echo "</pre>";
-  if (isset($search_Class) && isset($search_Level) && isset($search_School))
+  echo "</pre>";*/
+  if (isset($search_School) && isset($search_Level)/* && isset($search_School)*/)
   {
     echo '<div class="row2">
  <table border="1">  
@@ -118,15 +114,13 @@ for ($i=0; $i < 214; $i++) {
     <th>Spell School</th>
   </tr>';
        foreach ($Spells as $entry) {
-      /*if($search_Class == $classes && $search_Level == $Spells['level'] && $search_School == $spell_list['school'])
-     {*/
-     	/*foreach ($Class_list as $key => $value) {
-     		
-     		if ($value['class'] == $search_Class) {
-     			$class_validation = true;
-     		}
-     	}*/
-     	 if($search_Level == $entry['level'] && $search_School == $entry['school'] /*&& isset($class_validation)*/)
+    /*  foreach ($entry as $classes => $value) {
+        if ($value == $value['class']) {
+          $picked_classes = $value['class'];
+        }
+          
+        }*/
+     	 if($search_Level == $entry['level'] && $search_School == $entry['school']/* && $search_Class == $picked_classes*/) 
      {
       echo '<tr>';
       echo '<td>'.$entry['name'].'</td>';
@@ -135,12 +129,13 @@ for ($i=0; $i < 214; $i++) {
          echo '<td>'.$entry['school'].'</td>';
          echo '</tr>';
     }
-  }
-  }
-  else
-  {
-    echo 'vinsamlegast submittaðu search form';
-  }
+    }
+}
+else
+{
+  echo 'please submit form';
+}
+
     ?>
 </table>
 
@@ -154,7 +149,7 @@ for ($i=0; $i < 214; $i++) {
         kiddiflame@gmail.com<br>
         555-5555<br>
     </p>
-                        
+        </div>                    
 <div id="share-buttons">
  
     
@@ -177,8 +172,8 @@ for ($i=0; $i < 214; $i++) {
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
 
+
     </div>
 </footer>
-</div>
 </body>
 </html>
