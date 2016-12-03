@@ -15,7 +15,6 @@ if (isset($_POST['Search']))
 </head>
 <body>
 
-
   <div class="border"></div>
     <div class="title">
       <div class = "img1"><img src="img/header1.jpg"></div>
@@ -23,12 +22,9 @@ if (isset($_POST['Search']))
       <div class = "img2"><img src="img/header2.jpg"></div>
   </div>
 
-
   <div class="main_text"><h4>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h4>
-
     <div class="title">Final Assignment</div>
     <div class="main_text"><h3>The Spells in D&D 5E fall into several categories and functions, and all the spells have varying effects and uses, the ways the spells are distinct from each other go as follows:</h3>
-
     <ul>
 	   <li>A large number of spells fall are unique to certain spell casting "classes"</li>
 	   <li>All the spells go on a range of level 0-9, becoming more powerful as the levels rise</li>
@@ -37,9 +33,7 @@ if (isset($_POST['Search']))
   </div>
 
   <div class="search_options">
-	 <ol>
     <li>
-
       <!--Spell caster classes-->
       <form action="" method="POST">
         <select name="Classes" id="Classes">
@@ -82,8 +76,8 @@ if (isset($_POST['Search']))
         <option value="Transmutation">Transmutation</option>
       </select>
     </li>
-</ol>
 
+    <form action="#" method="POST">
 			<input class="search_button" type="submit" name="Search">
 		</form>
 	
@@ -135,43 +129,40 @@ if (isset($_POST['Search']))
   else
   {
     echo 'vinsamlegast submittaðu search form';
-
   }
     ?>
 </table>
 
 <div class="info"><p>The spell casting classes in D&D are often referred to in tiers of "full casters", "half casters" and "quarter casters". The strength and diversity of said spell casters depends on what tier they fall into.</p><p>The "full casters" include: Wizards, Sorcerers, Warlocks, Druids and Clerics</p><p>The "half casters" include: Bard, Paladin and Ranger(the quarter casters are only subtypes of non spell casting classes, and thus are not featured)</p></div>
 
-
 <footer>
  <div class="Contact_Information">
-                    <p>
-                        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
-                        Kristinn Logi, Thomas Ari Plank<br>
-                        kiddiflame@gmail.com<br>
-                        555-5555<br>
-                    </p>
-
+    <p>
+        &copy;<?php echo date('Y'); ?> Tskola verkefni<br>
+        Kristinn Logi, Thomas Ari Plank<br>
+        kiddiflame@gmail.com<br>
+        555-5555<br>
+    </p>
                         
 <div id="share-buttons">
  
     
-    <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+    <a href="https://www.facebook.com/dungeonsanddragons/">
         <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
     </a>
     
   
-    <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+    <a href="https://plus.google.com/collection/wZFFZ" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
     </a>
     
     
-    <a href="http://reddit.com/submit?url=https://simplesharebuttons.com&amp;title=Simple Share Buttons" target="_blank">
+    <a href="https://www.reddit.com/r/DnD/" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" />
     </a>
      
     
-    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+    <a href= "https://twitter.com/Wizards_DnD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
         <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     </a>
 
