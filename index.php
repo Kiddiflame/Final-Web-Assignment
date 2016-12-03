@@ -88,10 +88,20 @@ if (isset($_POST['Search']))
   $spell_list = json_decode($json, true);
   $Spells = $spell_list['Spells'];
 
+for ($i=0; $i < 214; $i++) { 
+  $Class_list = $Spells[$i]['classes']['class'];
+}
+
   // $key = 0
   /*foreach ($Spells as $key) {
  
   		$Class_list = $key["Classes"][]['class'];
+
+  /*foreach ($Spells as $key) {
+  	if ($key == 'Classes') {
+  		$Class_list = $Spells[$key];
+  	}
+
   }*/
   echo "<pre>"; 
   print_r($Spells);
